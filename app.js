@@ -9,7 +9,7 @@ app.use(cors());
 
 const User = require("./User"); // User.js
 const Data = require("./Data"); // Data.js
-mongoose.connect(process.env.Db_Url, {
+mongoose.connect("mongodb://127.0.0.1:27017/testerFunc", {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
@@ -65,25 +65,15 @@ app.post("/login", async (req, res) => {
 
 app.post("/data", async (req, res) => {
   const data = req.body.data.split(", ");
-  const AX = data[0];
-  const AY = data[1];
-  const AZ = data[2];
-  const GPS_Lat = data[3];
-  const GPS_Long = data[4];
-  const GX = data[5];
-  const GY = data[6];
-  const GZ = data[7];
+  const AX = data[1];
+  const AY = data[2];
+  const AZ = data[3];
   const email = req.body.email;
   try {
     const newData = await Data.create({
       AX,
       AY,
       AZ,
-      GX,
-      GY,
-      GZ,
-      GPS_Lat,
-      GPS_Long,
     });
     await newData.save();
     const user = await User.findOne({ email });
