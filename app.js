@@ -9,7 +9,7 @@ app.use(cors());
 
 const User = require("./User"); // User.js
 const Data = require("./Data"); // Data.js
-mongoose.connect("mongodb://127.0.0.1:27017/testerFunc", {
+mongoose.connect(process.env.Db_Url, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
