@@ -91,9 +91,9 @@ app.post("/data", async (req, res) => {
         // console.log(newData);
         user.dataList.push(newData);
       }
-      await user.save();
-      // console.log(user);
     }
+    await user.save();
+    // console.log(user);
   } catch (err) {
     console.log(err);
   }
