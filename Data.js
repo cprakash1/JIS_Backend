@@ -14,6 +14,14 @@ const dataSchema = new mongoose.Schema(
       type: Number,
       required: true,
     },
+    date: {
+      type: String,
+      required: true,
+    },
+    time: {
+      type: String,
+      required: true,
+    },
   },
   { timestamps: true }
 );

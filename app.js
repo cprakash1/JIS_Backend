@@ -64,24 +64,41 @@ app.post("/login", async (req, res) => {
 });
 
 app.post("/data", async (req, res) => {
-  const data = req.body.data.split(", ");
-  const AX = data[1];
-  const AY = data[2];
-  const AZ = data[3];
-  const email = req.body.email;
+  console.log(req.body);
+  const data = req.body.data.split("\n");
+  console.log(data);
   try {
-    const newData = await Data.create({
-      AX,
-      AY,
-      AZ,
-    });
-    await newData.save();
+    const email = req.body.email;
     const user = await User.findOne({ email });
-    user.dataList.push(newData);
+    data.forEach(async (element) => {
+      const dataList = element.split(", ");
+      console.log(dataList);
+      if (dataList.length === 5) {
+        const AX = dataList[0];
+        const AY = dataList[1];
+        const AZ = dataList[2];
+        const date = dataList[3];
+        const time = dataList[4];
+
+        const newData = await Data.create({
+          AX,
+          AY,
+          AZ,
+          date,
+          time,
+        });
+        console.log(newData);
+        user.dataList.push(newData);
+      }
+    });
     await user.save();
   } catch (err) {
     console.log(err);
   }
+  res.status(200).send();
+});
+
+app.get("/connect", (req, res) => {
   res.status(200).send();
 });
 
