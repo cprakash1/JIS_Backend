@@ -64,15 +64,16 @@ app.post("/login", async (req, res) => {
 });
 
 app.post("/data", async (req, res) => {
-  console.log(req.body);
+  // console.log(req.body);
   const data = req.body.data.split("\n");
-  console.log(data);
+  // console.log(data);
   try {
     const email = req.body.email;
     const user = await User.findOne({ email });
-    data.forEach(async (element) => {
+
+    for (const element of data) {
       const dataList = element.split(", ");
-      console.log(dataList);
+      // console.log(dataList);
       if (dataList.length === 5) {
         const AX = dataList[0];
         const AY = dataList[1];
@@ -87,11 +88,12 @@ app.post("/data", async (req, res) => {
           date,
           time,
         });
-        console.log(newData);
+        // console.log(newData);
         user.dataList.push(newData);
       }
-    });
-    await user.save();
+      await user.save();
+      // console.log(user);
+    }
   } catch (err) {
     console.log(err);
   }
