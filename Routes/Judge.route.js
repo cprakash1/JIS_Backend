@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const { update, caseView, login } = require("../controllers/Judge.controller");
+const { update, caseView, login } = require("../Controllers/Judge.controller");
 const { verifyLogin } = require("../Helper/loginVerifier.helper");
 const { verifyPublicKey } = require("../Helper/publicKeyVerifier.helper");
 const { userIdAsId } = require("../Helper/userIdAsId.helper");

@@ -12,7 +12,7 @@ const {
   getSchedule,
   assignDate,
   addSummery,
-} = require("../controllers/Registrar.controller");
+} = require("../Controllers/Registrar.controller");
 const { verifyLogin } = require("../Helper/loginVerifier.helper");
 const { verifyPublicKey } = require("../Helper/publicKeyVerifier.helper");
 const { userIdAsId } = require("../Helper/userIdAsId.helper");
