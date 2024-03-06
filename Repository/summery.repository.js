@@ -1,4 +1,4 @@
-const Summery = require("../models/Summery.model");
+const Summery = require("../Models/Summery.model");
 
 class SummeryRepository {
   async create(SummeryData) {

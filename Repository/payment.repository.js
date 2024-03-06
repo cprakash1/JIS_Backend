@@ -1,4 +1,4 @@
-const Payment = require("../models/Payment.model");
+const Payment = require("../Models/Payment.model");
 
 class PaymentRepository {
   async create(payment) {

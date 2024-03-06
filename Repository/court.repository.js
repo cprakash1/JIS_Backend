@@ -1,5 +1,5 @@
-const Court = require("../models/Court.model");
-const Temp = require("../models/Temp.model");
+const Court = require("../Models/Court.model");
+const Temp = require("../Models/Temp.model");
 
 class CourtRepository {
   async create(court) {

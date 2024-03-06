@@ -1,5 +1,5 @@
-const Case = require("../models/Case.model");
-const Temp = require("../models/Temp.model");
+const Case = require("../Models/Case.model");
+const Temp = require("../Models/Temp.model");
 
 class CaseRepository {
   async create(caseData) {
