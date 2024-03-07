@@ -20,7 +20,6 @@ class RegistrarRepository {
         ...registrar,
         id: "R" + result.count,
       });
-      console.log(newRegistrar);
       return await newRegistrar.save();
     } catch (error) {
       throw error;

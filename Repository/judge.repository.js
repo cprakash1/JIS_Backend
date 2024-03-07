@@ -23,7 +23,6 @@ class JudgeRepository {
       });
       return await newJudge.save();
     } catch (error) {
-      console.log(error);
       throw error;
     }
   }
