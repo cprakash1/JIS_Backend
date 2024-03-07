@@ -26,7 +26,9 @@ exports.register = async (registrar) => {
     )
       throw new Error("Email or Phone Number already exists");
     registrar.password = await bcrypt.hashPassword(registrar.password);
-    return await Registrar.create(registrar);
+    const newRegistrar = await Registrar.create(registrar);
+    newRegistrar.password = undefined;
+    return newRegistrar;
   } catch (error) {
     throw error;
   }
@@ -56,6 +58,7 @@ exports.createJudge = async (judge) => {
     judge.password = await bcrypt.hashPassword(judge.password);
     const judge_Data = await Judge.create(judge);
     await Court.addJudge(judge.court, judge_Data._id);
+    judge_Data.password = undefined;
     return judge_Data;
   } catch (error) {
     throw error;
@@ -86,6 +89,7 @@ exports.createLawyer = async (lawyer) => {
     lawyer.password = await bcrypt.hashPassword(lawyer.password);
     const lawyer_Data = await Lawyer.create(lawyer);
     await Court.addLawyer(lawyer.court, lawyer_Data._id);
+    lawyer_Data.password = undefined;
     return lawyer_Data;
   } catch (error) {
     throw error;
