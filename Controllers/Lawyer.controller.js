@@ -3,6 +3,7 @@ const {
   casesView,
   login,
   payment,
+  getCompleteDetails,
 } = require("../Services/Lawyer.service");
 
 exports.update = async (req, res) => {
@@ -37,6 +38,16 @@ exports.login = async (req, res) => {
 exports.payment = async (req, res) => {
   try {
     const result = await payment(req.body);
+    res.status(200).send(result);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+exports.getCompleteDetails = async (req, res) => {
+  try {
+    console.log(req.body);
+    const result = await getCompleteDetails(req.body);
     res.status(200).send(result);
   } catch (error) {
     res.status(500).json({ message: error.message });

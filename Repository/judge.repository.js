@@ -72,6 +72,7 @@ class JudgeRepository {
       await Judge.findOneAndUpdate({ id: judge.id }, judge, {});
       return await Judge.findOne({ id: judge.id });
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }
@@ -141,6 +142,27 @@ class JudgeRepository {
       judge.cases = [...judge.cases, _idOfCase];
       await judge.save();
       return;
+    } catch (error) {
+      throw error;
+    }
+  }
+  async getCompleteDetails(idOfJudge) {
+    try {
+      if (!idOfJudge) throw new Error("Judge id is required");
+      // populate schedule cases column also
+      return await Judge.findOne({ id: idOfJudge })
+        .populate("cases", "CIN")
+        .populate({
+          path: "schedule",
+          populate: { path: "case", select: "CIN" },
+          select: "dateTime case",
+        })
+        .populate({
+          path: "history",
+          populate: { path: "case", select: "CIN" },
+        })
+        .populate("casesSeen", "CIN")
+        .populate("court");
     } catch (error) {
       throw error;
     }

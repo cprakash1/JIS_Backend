@@ -31,6 +31,18 @@ class CourtRepository {
     }
   }
 
+  async getCourtCompleteInfoById(id) {
+    try {
+      if (!id) throw new Error("Id is required");
+      return await Court.findOne({ id: id })
+        .populate("cases")
+        .populate("lawyers")
+        .populate("judges");
+    } catch (error) {
+      throw error;
+    }
+  }
+
   async getAllCourts() {
     try {
       return await Court.find();

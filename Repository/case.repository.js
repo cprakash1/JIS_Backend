@@ -43,6 +43,20 @@ class CaseRepository {
       throw err;
     }
   }
+  async getCaseByCINWithInfo(CIN) {
+    try {
+      if (!CIN) throw new Error("Id is required");
+      return await Case.findOne({ CIN: CIN })
+        .populate("court", "name location")
+        .populate("judge", "name id")
+        .populate("lawyers", "name id")
+        .populate("nextHearing", "dateTime")
+        .populate("publicProsecutor", "name id")
+        .populate("summery");
+    } catch (err) {
+      throw err;
+    }
+  }
   async getCaseByCINWithSchedule(CIN) {
     try {
       if (!CIN) throw new Error("Id is required");

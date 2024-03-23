@@ -69,10 +69,14 @@ class LawyerRepository {
   async update(lawyer) {
     try {
       if (!lawyer) throw new Error("Registrar object is required");
-      if (!lawyer.id) throw new Error("Registrar id is required");
+      if (!lawyer.id) throw new Error("Lawyer id is required");
       await Lawyer.findOneAndUpdate({ id: lawyer.id }, lawyer, {});
-      return await Lawyer.findOne({ id: lawyer.id });
+      return await Lawyer.findOne({ id: lawyer.id }).populate(
+        "court",
+        "name location id"
+      );
     } catch (error) {
+      console.log(error);
       throw error;
     }
   }
@@ -177,6 +181,28 @@ class LawyerRepository {
       lawyer.cases = [...lawyer.cases, _idOfCase];
       await lawyer.save();
       return;
+    } catch (error) {
+      throw error;
+    }
+  }
+  async getCompleteDetails(idOfLawyer) {
+    try {
+      if (!idOfLawyer) throw new Error("Lawyer id is required");
+      // populate schedule cases column also
+      return await Lawyer.findOne({ id: idOfLawyer })
+        .populate("cases", "CIN")
+        .populate({
+          path: "schedule",
+          populate: { path: "case", select: "CIN" },
+          select: "dateTime case",
+        })
+        .populate({
+          path: "history",
+          populate: { path: "case", select: "CIN" },
+        })
+        .populate("casesSeen", "CIN")
+        .populate("paymentHistory")
+        .populate("court");
     } catch (error) {
       throw error;
     }

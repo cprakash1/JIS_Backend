@@ -66,6 +66,14 @@ class RegistrarRepository {
       throw error;
     }
   }
+  async getCompleteInfoById(id) {
+    try {
+      if (!id) throw new Error("Id is required");
+      return await Registrar.findOne({ id }).populate("court");
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = new RegistrarRepository();

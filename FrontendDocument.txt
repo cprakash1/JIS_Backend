@@ -1,0 +1,64 @@
+Registrar Registration
+You will get a function registrarRegistrar from GlobalContext. You can use it to register your component.
+you have to pass the dataitem 
+- name: string
+- email: email
+- phone: string
+- address: string
+- password: string
+- confirmPassword: string
+- court: String(can be null or id of court)
+
+Lawyer Registration
+You will get a function lawyerRegistrar from GlobalContext. You can use it to register your component.
+you have to pass the dataitem
+- name: string
+- email: email
+- phone: string
+- address: string
+- password: string
+- confirmPassword: string
+- court: string
+
+Judge Registration
+You will get a function judgeRegistrar from GlobalContext. You can use it to register your component.
+you have to pass the dataitem
+- name: string
+- email: email
+- phone: string
+- address: string
+- password: string
+- confirmPassword: string
+- court: string
+
+
+Create Case
+You will get a function caseCreator from GlobalContext. You can use it to create a case.
+you have to pass the dataitem
+- defendantName: string
+- defendantAddress: string
+- crimeType: string
+- dateCommitted: date
+- locationCommitted: string
+- arrestingOfficer: string
+- arrestDate: date
+- judge: string[you will get a function getJudges from GlobalContext. You can use it to get all judges. you can select one judge.]
+- lawyers: list[you will get a function getLawyers from GlobalContext. You can use it to get all lawyers. you can select multiple lawyers.]
+- publicProsecutor: list[you will get a function getLawyers from GlobalContext. You can use it to get all lawyers.you can select multiple lawyers.]
+- status: string
+- victim: string
+- court: string
+
+you have to make sure that lawyers and publicProsecutor must have 1 or more items.All the data should be valid.Lawyers and publicProsecutor cannot be the same person.
+
+Create Court
+You will get a function courtCreator from GlobalContext. You can use it to create a court.
+you have to pass the dataitem
+- name: string
+- location: string
+
+login 
+You will get a function login from GlobalContext. You can use it to login.
+you have to pass the dataitem
+- email: string
+- password: string

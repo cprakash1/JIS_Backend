@@ -26,6 +26,12 @@ exports.register = async (registrar) => {
     )
       throw new Error("Email or Phone Number already exists");
     registrar.password = await bcrypt.hashPassword(registrar.password);
+    const court = await Court.getCourtById(registrar.court);
+    if (!court) {
+      registrar.court = undefined;
+    } else {
+      registrar.court = court._id;
+    }
     const newRegistrar = await Registrar.create(registrar);
     newRegistrar.password = undefined;
     return newRegistrar;
@@ -185,6 +191,7 @@ exports.updateCourt = async (court) => {
 
 exports.login = async (email, password) => {
   try {
+    console.log(email, password);
     if (!email) throw new Error("Email is required");
     if (!password) throw new Error("Password is required");
     const registrar = await Registrar.getByEmail(email);
@@ -193,7 +200,7 @@ exports.login = async (email, password) => {
       throw new Error("Invalid Password");
     registrar.password = undefined;
     const loginToken = await createLoginToken({ id: registrar.id });
-    return { ...registrar._doc, loginToken };
+    return { user: { ...registrar._doc }, loginToken };
   } catch (error) {
     throw error;
   }
@@ -301,6 +308,16 @@ exports.caseSummery = async (summeryData) => {
     await Case.removeSchedule(case_DATA._id, case_DATA.nextHearing._id);
     await Schedule.removeSchedule(case_DATA.nextHearing._id);
     return { message: "Summery added" };
+  } catch (error) {
+    throw error;
+  }
+};
+
+exports.getCompleteDetails = async (data) => {
+  try {
+    if (!data) throw new Error("Data is required");
+    if (!data.userId) throw new Error("Registrar id is required");
+    return await Registrar.getCompleteInfoById(data.userId);
   } catch (error) {
     throw error;
   }
