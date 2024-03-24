@@ -41,13 +41,13 @@ router.post("/register", register);
 router.post("/register-judge", verifyLogin, registerJudge);
 router.post("/register-lawyer", verifyLogin, registerLawyer);
 router.post("/register-case", verifyLogin, registerCase);
-router.post("/update-registrar", updateRegistrar);
+router.post("/update-registrar", verifyLogin, userIdAsId, updateRegistrar);
 router.post("/register-court", verifyLogin, registerCourt);
 router.post("/update-court", verifyLogin, updateCourt);
 router.post("/login", login);
 router.post("/get-Schedule", verifyLogin, getSchedule);
 router.post("/date-selected", verifyLogin, assignDate);
-router.post("/add-Summery", addSummery);
+router.post("/add-Summery", verifyLogin, addSummery);
 router.post("/get-complete-details", verifyLogin, getCompleteDetails);
 
 module.exports = router;

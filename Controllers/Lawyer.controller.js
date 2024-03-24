@@ -46,7 +46,6 @@ exports.payment = async (req, res) => {
 
 exports.getCompleteDetails = async (req, res) => {
   try {
-    console.log(req.body);
     const result = await getCompleteDetails(req.body);
     res.status(200).send(result);
   } catch (error) {

@@ -72,7 +72,6 @@ class JudgeRepository {
       await Judge.findOneAndUpdate({ id: judge.id }, judge, {});
       return await Judge.findOne({ id: judge.id });
     } catch (error) {
-      console.log(error);
       throw error;
     }
   }

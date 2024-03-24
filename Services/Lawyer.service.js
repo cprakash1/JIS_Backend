@@ -7,7 +7,6 @@ const Court = require("../Repository/court.repository");
 
 exports.update = async (lawyer) => {
   try {
-    console.log(lawyer);
     if (!lawyer) throw new Error("Lawyer object is required");
     if (!lawyer.id) throw new Error("Lawyer id is required");
     const data = await Lawyer.getById(lawyer.id);
@@ -35,7 +34,6 @@ exports.update = async (lawyer) => {
     }
     dataToUpdate._id = data._id;
     dataToUpdate.id = data.id;
-    console.log(dataToUpdate);
     return await Lawyer.update(dataToUpdate);
   } catch (error) {
     throw error;
@@ -55,7 +53,6 @@ exports.casesView = async (lawyer) => {
     await Lawyer.caseView(lawyerData._id, caseData._id);
     return caseData;
   } catch (error) {
-    console.log(error);
     throw error;
   }
 };

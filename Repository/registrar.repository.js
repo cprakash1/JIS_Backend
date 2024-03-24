@@ -61,7 +61,10 @@ class RegistrarRepository {
       if (!registrar) throw new Error("Registrar object is required");
       if (!registrar.id) throw new Error("Registrar id is required");
       await Registrar.findOneAndUpdate({ id: registrar.id }, registrar, {});
-      return await Registrar.findOne({ id: registrar.id });
+      return await Registrar.findOne({ id: registrar.id }).populate(
+        "court",
+        "name location id"
+      );
     } catch (error) {
       throw error;
     }

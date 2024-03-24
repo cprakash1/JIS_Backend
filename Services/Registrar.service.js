@@ -106,7 +106,32 @@ exports.updateRegistrar = async (registrar) => {
   try {
     if (!registrar) throw new Error("Registrar object is required");
     if (!registrar.id) throw new Error("Registrar id is required");
-    return await Registrar.update(registrar);
+    const data = await Registrar.getById(registrar.id);
+    if (!data) throw new Error("Invalid Registrar");
+    const dataToUpdate = {};
+    if (registrar.password && registrar.password.length > 0) {
+      dataToUpdate.password = await bcrypt.hashPassword(registrar.password);
+    }
+    if (registrar.name && registrar.name.length > 0) {
+      dataToUpdate.name = registrar.name;
+    }
+    if (registrar.email && registrar.email.length > 0) {
+      dataToUpdate.email = registrar.email;
+    }
+    if (registrar.phone && registrar.phone.length > 0) {
+      dataToUpdate.phone = registrar.phone;
+    }
+    if (registrar.address && registrar.address.length > 0) {
+      dataToUpdate.address = registrar.address;
+    }
+    if (registrar.court && registrar.court.length > 0) {
+      const court = await Court.getCourtById(registrar.court);
+      if (!court) throw new Error("Invalid Court");
+      dataToUpdate.court = court._id;
+    }
+    dataToUpdate._id = data._id;
+    dataToUpdate.id = data.id;
+    return await Registrar.update(dataToUpdate);
   } catch (error) {
     throw error;
   }
@@ -191,7 +216,6 @@ exports.updateCourt = async (court) => {
 
 exports.login = async (email, password) => {
   try {
-    console.log(email, password);
     if (!email) throw new Error("Email is required");
     if (!password) throw new Error("Password is required");
     const registrar = await Registrar.getByEmail(email);
@@ -281,7 +305,11 @@ exports.caseSummery = async (summeryData) => {
     if (!summeryData) throw new Error("Summery data is required");
     if (!summeryData.CIN) throw new Error("Case id is required");
     if (!summeryData.comment) throw new Error("Comment is required");
-    if (!summeryData.status) throw new Error("Status is required");
+    if (
+      !summeryData.status ||
+      (!summeryData.status === "Summery" && !summeryData.status === "Adjourned")
+    )
+      throw new Error("Status is required");
     if (!summeryData.userId) throw new Error("Registrar id is not given");
     if ((await Registrar.getById(summeryData.userId)) == null)
       throw new Error("Invalid Registrar");

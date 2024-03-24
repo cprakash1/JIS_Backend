@@ -76,7 +76,6 @@ class LawyerRepository {
         "name location id"
       );
     } catch (error) {
-      console.log(error);
       throw error;
     }
   }

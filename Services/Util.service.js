@@ -41,7 +41,6 @@ class UtilService {
       });
       return { judges, lawyers };
     } catch (error) {
-      console.log(error);
       throw error;
     }
   }
