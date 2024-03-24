@@ -26,11 +26,16 @@ exports.register = async (registrar) => {
     )
       throw new Error("Email or Phone Number already exists");
     registrar.password = await bcrypt.hashPassword(registrar.password);
-    const court = await Court.getCourtById(registrar.court);
-    if (!court) {
-      registrar.court = undefined;
+    if (registrar.court && registrar.court.length !== 0) {
+      console.log(registrar.court);
+      const court = await Court.getCourtById(registrar.court);
+      if (!court) {
+        registrar.court = undefined;
+      } else {
+        registrar.court = court._id;
+      }
     } else {
-      registrar.court = court._id;
+      registrar.court = undefined;
     }
     const newRegistrar = await Registrar.create(registrar);
     newRegistrar.password = undefined;
