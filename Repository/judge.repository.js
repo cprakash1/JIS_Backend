@@ -70,7 +70,10 @@ class JudgeRepository {
       if (!judge) throw new Error("Judge object is required");
       if (!judge.id) throw new Error("Judge id is required");
       await Judge.findOneAndUpdate({ id: judge.id }, judge, {});
-      return await Judge.findOne({ id: judge.id });
+      return await Judge.findOne({ id: judge.id }).populate(
+        "court",
+        "name location id"
+      );
     } catch (error) {
       throw error;
     }
