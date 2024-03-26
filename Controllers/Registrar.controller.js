@@ -16,6 +16,7 @@ const {
   getTodayCases,
   getScheduledCases,
   casesView,
+  searchByKeyword,
 } = require("../Services/Registrar.service");
 
 exports.register = async (req, res) => {
@@ -165,6 +166,15 @@ exports.getScheduledCases = async (req, res) => {
 exports.casesView = async (req, res) => {
   try {
     const result = await casesView(req.body);
+    res.status(200).json(result);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+exports.searchByKeyword = async (req, res) => {
+  try {
+    const result = await searchByKeyword(req.body);
     res.status(200).json(result);
   } catch (error) {
     res.status(500).json({ message: error.message });

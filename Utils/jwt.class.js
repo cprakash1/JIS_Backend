@@ -35,6 +35,15 @@ class Jwt {
   async decodeTokenWithSecret(token, secret) {
     return jwt.decode(token, secret);
   }
+
+  async getPayload(token) {
+    try {
+      if (!token) return "";
+      return jwt.decode(token);
+    } catch (e) {
+      return "";
+    }
+  }
 }
 
 module.exports = new Jwt();

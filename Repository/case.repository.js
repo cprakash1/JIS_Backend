@@ -160,6 +160,75 @@ class CaseRepository {
       throw error;
     }
   }
+  async searchByKeyword(keyword) {
+    try {
+      if (!keyword) throw new Error("Keyword is required");
+      const cases = await Case.aggregate([
+        {
+          $lookup: {
+            from: "courts",
+            localField: "court",
+            foreignField: "_id",
+            as: "court",
+          },
+        },
+        {
+          $lookup: {
+            from: "judges",
+            localField: "judge",
+            foreignField: "_id",
+            as: "judge",
+          },
+        },
+        {
+          $lookup: {
+            from: "lawyers",
+            localField: "lawyers",
+            foreignField: "_id",
+            as: "lawyers",
+          },
+        },
+        {
+          $lookup: {
+            from: "publicProsecutors",
+            localField: "publicProsecutor",
+            foreignField: "_id",
+            as: "publicProsecutor",
+          },
+        },
+        {
+          $match: {
+            $or: [
+              { defendantName: { $regex: keyword, $options: "i" } },
+              { CIN: { $regex: keyword, $options: "i" } },
+              { "court.name": { $regex: keyword, $options: "i" } },
+              { "court.location": { $regex: keyword, $options: "i" } },
+              { defendantAddress: { $regex: keyword, $options: "i" } },
+              { crimeType: { $regex: keyword, $options: "i" } },
+              { locationCommitted: { $regex: keyword, $options: "i" } },
+              { arrestingOfficer: { $regex: keyword, $options: "i" } },
+              { victim: { $regex: keyword, $options: "i" } },
+              { status: { $regex: keyword, $options: "i" } },
+              { "judge.name": { $regex: keyword, $options: "i" } },
+              { "publicProsecutor.name": { $regex: keyword, $options: "i" } },
+              { "lawyers.name": { $regex: keyword, $options: "i" } },
+            ],
+          },
+        },
+        {
+          $project: {
+            CIN: 1,
+            crimeType: 1,
+            status: 1,
+            createdAt: 1,
+          },
+        },
+      ]);
+      return cases;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = new CaseRepository();

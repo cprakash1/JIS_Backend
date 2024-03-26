@@ -110,3 +110,17 @@ exports.getCompleteDetails = async (lawyer) => {
     throw error;
   }
 };
+
+exports.searchByKeyword = async (data) => {
+  try {
+    if (!data) throw new Error("Data is required");
+    if (!data.keyword) throw new Error("Keyword is required");
+    if (!data.id) throw new Error("Lawyer id is required");
+    const lawyer = await Lawyer.getById(data.id);
+    if (!lawyer) throw new Error("Invalid Lawyer");
+    const cases = await Case.searchByKeyword(data.keyword);
+    return cases;
+  } catch (error) {
+    throw error;
+  }
+};

@@ -162,6 +162,8 @@ exports.createCase = async (caseData) => {
     if (!caseData.lawyers) throw new Error("Lawyers are required");
     if (!caseData.court) throw new Error("Court is required");
     if (!caseData.victim) throw new Error("Victim is required");
+    if (caseData.createdAt) caseData.createdAt = new Date(caseData.createdAt);
+    if (isNaN(caseData.createdAt)) caseData.createdAt = new Date();
     const court = await Court.getCourtById(caseData.court);
     if (court == null) throw new Error("Invalid Court");
     caseData.court = court._id;
@@ -467,6 +469,20 @@ exports.casesView = async (registrar) => {
     const caseData = await Case.getCaseByCINWithInfo(registrar.CIN);
     if (!caseData) throw new Error("Invalid Case");
     return caseData;
+  } catch (error) {
+    throw error;
+  }
+};
+
+exports.searchByKeyword = async (data) => {
+  try {
+    if (!data) throw new Error("Data is required");
+    if (!data.id) throw new Error("Registrar id is required");
+    if (!data.keyword) throw new Error("Keyword is required");
+    const registrar = await Registrar.getById(data.id);
+    if (!registrar) throw new Error("Invalid Registrar");
+    const cases = await Case.searchByKeyword(data.keyword);
+    return cases;
   } catch (error) {
     throw error;
   }

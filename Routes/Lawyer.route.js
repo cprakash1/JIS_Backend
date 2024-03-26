@@ -6,6 +6,7 @@ const {
   login,
   payment,
   getCompleteDetails,
+  searchByKeyword,
 } = require("../Controllers/Lawyer.controller");
 const { verifyPublicKey } = require("../Helper/publicKeyVerifier.helper");
 const { verifyLogin } = require("../Helper/loginVerifier.helper");
@@ -26,5 +27,6 @@ router.post(
   userIdAsId,
   getCompleteDetails
 );
+router.post("/search", verifyLogin, userIdAsId, searchByKeyword);
 
 module.exports = router;

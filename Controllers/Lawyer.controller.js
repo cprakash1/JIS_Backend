@@ -4,6 +4,7 @@ const {
   login,
   payment,
   getCompleteDetails,
+  searchByKeyword,
 } = require("../Services/Lawyer.service");
 
 exports.update = async (req, res) => {
@@ -47,6 +48,15 @@ exports.payment = async (req, res) => {
 exports.getCompleteDetails = async (req, res) => {
   try {
     const result = await getCompleteDetails(req.body);
+    res.status(200).send(result);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+exports.searchByKeyword = async (req, res) => {
+  try {
+    const result = await searchByKeyword(req.body);
     res.status(200).send(result);
   } catch (error) {
     res.status(500).json({ message: error.message });

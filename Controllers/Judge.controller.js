@@ -3,6 +3,7 @@ const {
   caseView,
   login,
   getCompleteDetails,
+  searchByKeyword,
 } = require("../Services/Judge.service");
 
 exports.update = async (req, res) => {
@@ -35,6 +36,15 @@ exports.login = async (req, res) => {
 exports.getCompleteDetails = async (req, res) => {
   try {
     const result = await getCompleteDetails(req.body);
+    res.status(200).json(result);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+exports.searchByKeyword = async (req, res) => {
+  try {
+    const result = await searchByKeyword(req.body);
     res.status(200).json(result);
   } catch (error) {
     res.status(500).json({ message: error.message });

@@ -18,6 +18,7 @@ const {
   getTodayCases,
   getScheduledCases,
   casesView,
+  searchByKeyword,
 } = require("../Controllers/Registrar.controller");
 const { verifyLogin } = require("../Helper/loginVerifier.helper");
 const { verifyPublicKey } = require("../Helper/publicKeyVerifier.helper");
@@ -59,5 +60,6 @@ router.post("/get-pending-cases", verifyLogin, getPendingCases);
 router.post("/get-today-cases", verifyLogin, getTodayCases);
 router.post("/get-ranged-cases", verifyLogin, getScheduledCases);
 router.post("/case-view", verifyLogin, userIdAsId, casesView);
+router.post("/search", verifyLogin, userIdAsId, searchByKeyword);
 
 module.exports = router;

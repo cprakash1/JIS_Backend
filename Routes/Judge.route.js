@@ -5,6 +5,7 @@ const {
   caseView,
   login,
   getCompleteDetails,
+  searchByKeyword,
 } = require("../Controllers/Judge.controller");
 const { verifyLogin } = require("../Helper/loginVerifier.helper");
 const { verifyPublicKey } = require("../Helper/publicKeyVerifier.helper");
@@ -23,5 +24,6 @@ router.post(
   userIdAsId,
   getCompleteDetails
 );
+router.post("/search", verifyLogin, userIdAsId, searchByKeyword);
 
 module.exports = router;

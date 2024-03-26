@@ -83,3 +83,16 @@ exports.getCompleteDetails = async (judge) => {
     throw error;
   }
 };
+
+exports.searchByKeyword = async (keyword) => {
+  try {
+    if (!keyword) throw new Error("Keyword is required");
+    if (!keyword.id) throw new Error("Judge id is required");
+    if (!keyword.keyword) throw new Error("Keyword is required");
+    const judgeData = await Judge.getById(keyword.id);
+    if (!judgeData) throw new Error("Invalid Judge");
+    return await Case.searchByKeyword(keyword.keyword);
+  } catch (error) {
+    throw error;
+  }
+};
