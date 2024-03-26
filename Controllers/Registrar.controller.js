@@ -11,6 +11,11 @@ const {
   assignDate,
   caseSummery,
   getCompleteDetails,
+  closeCase,
+  getPendingCases,
+  getTodayCases,
+  getScheduledCases,
+  casesView,
 } = require("../Services/Registrar.service");
 
 exports.register = async (req, res) => {
@@ -115,6 +120,51 @@ exports.addSummery = async (req, res) => {
 exports.getCompleteDetails = async (req, res) => {
   try {
     const result = await getCompleteDetails(req.body);
+    res.status(200).json(result);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+exports.closeCase = async (req, res) => {
+  try {
+    const result = await closeCase(req.body);
+    res.status(200).json(result);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+exports.getPendingCases = async (req, res) => {
+  try {
+    const result = await getPendingCases(req.body);
+    res.status(200).json(result);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+exports.getTodayCases = async (req, res) => {
+  try {
+    const result = await getTodayCases(req.body);
+    res.status(200).json(result);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+exports.getScheduledCases = async (req, res) => {
+  try {
+    const result = await getScheduledCases(req.body);
+    res.status(200).json(result);
+  } catch (error) {
+    res.status(500).json({ message: error.message });
+  }
+};
+
+exports.casesView = async (req, res) => {
+  try {
+    const result = await casesView(req.body);
     res.status(200).json(result);
   } catch (error) {
     res.status(500).json({ message: error.message });

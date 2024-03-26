@@ -108,6 +108,58 @@ class CaseRepository {
       throw error;
     }
   }
+
+  async closeCase(_idOfCase, closedAt) {
+    try {
+      if (!_idOfCase) throw new Error("Case id is required");
+      await Case.findOneAndUpdate(
+        { _id: _idOfCase },
+        { $set: { status: "closed", closedAt } }
+      );
+    } catch (error) {
+      throw error;
+    }
+  }
+  async getTodayCases() {
+    try {
+      const cases = await Case.find(
+        {
+          $and: [{ nextHearing: { $exists: true } }],
+        },
+        "CIN nextHearing court"
+      )
+        .populate({
+          path: "court",
+          select: "name location",
+        })
+        .populate({
+          path: "nextHearing",
+          select: "dateTime",
+        });
+      return cases;
+    } catch (error) {
+      throw error;
+    }
+  }
+  async getScheduledCases(from, to) {
+    try {
+      if (!from) throw new Error("From date is required");
+      if (!to) throw new Error("To date is required");
+      const cases = await Case.find(
+        {
+          $and: [
+            { closedAt: { $exists: true } },
+            { createdAt: { $gte: from } },
+            { closedAt: { $lte: to } },
+          ],
+        },
+        "CIN"
+      );
+      return cases;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = new CaseRepository();

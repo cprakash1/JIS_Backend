@@ -89,6 +89,10 @@ const CaseSchema = new mongoose.Schema(
       type: Date,
       default: Date.now,
     },
+    closedAt: {
+      type: Date,
+      required: false,
+    },
   },
   { strictPopulate: false }
 );

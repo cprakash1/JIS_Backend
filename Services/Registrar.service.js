@@ -27,7 +27,6 @@ exports.register = async (registrar) => {
       throw new Error("Email or Phone Number already exists");
     registrar.password = await bcrypt.hashPassword(registrar.password);
     if (registrar.court && registrar.court.length !== 0) {
-      console.log(registrar.court);
       const court = await Court.getCourtById(registrar.court);
       if (!court) {
         registrar.court = undefined;
@@ -351,6 +350,123 @@ exports.getCompleteDetails = async (data) => {
     if (!data) throw new Error("Data is required");
     if (!data.userId) throw new Error("Registrar id is required");
     return await Registrar.getCompleteInfoById(data.userId);
+  } catch (error) {
+    throw error;
+  }
+};
+
+exports.closeCase = async (data) => {
+  try {
+    if (!data) throw new Error("Data is required");
+    if (!data.userId) throw new Error("Registrar id is required");
+    if (!data.CIN) throw new Error("Case id is required");
+    const registrar = await Registrar.getById(data.userId);
+    if (!registrar) throw new Error("Invalid Registrar");
+    const case_DATA = await Case.getCaseByCIN(data.CIN);
+    if (!case_DATA) throw new Error("Invalid CIN");
+    if (case_DATA.status === "closed") throw new Error("Case already closed");
+    if (case_DATA.nextHearing && case_DATA.nextHearing !== "")
+      throw new Error("Case is not yet completed");
+    let date = Date.now();
+    //check if date is given and is valid
+    if (data.date) date = new Date(data.date);
+    //check if date is valid or not that is it is date or not
+    if (isNaN(date)) throw new Error("Invalid Date");
+    await Case.closeCase(case_DATA._id, date);
+    return { message: "Case Closed" };
+  } catch (error) {
+    throw error;
+  }
+};
+
+exports.getPendingCases = async (data) => {
+  try {
+    if (!data) throw new Error("Data is required");
+    if (!data.userId) throw new Error("Registrar id is required");
+    if (!data.court) throw new Error("Court id is required");
+    const registrar = await Registrar.getById(data.userId);
+    if (!registrar) throw new Error("Invalid Registrar");
+    const court = await Court.getCourtByIdWithCaseCINAndStatusPending(
+      data.court
+    );
+    if (!court) throw new Error("Invalid Court");
+    return court.cases;
+  } catch (error) {
+    throw error;
+  }
+};
+
+exports.getTodayCases = async (data) => {
+  try {
+    if (!data) throw new Error("Data is required");
+    if (!data.userId) throw new Error("Registrar id is required");
+    const registrar = await Registrar.getById(data.userId);
+    if (!registrar) throw new Error("Invalid Registrar");
+    if (!data.date) data.date = new Date();
+    const newDate = new Date(data.date);
+    newDate.setHours(0, 0, 0, 0);
+    let cases = [];
+    if (!data.court || data.court === "") {
+      const casesData = await Case.getTodayCases();
+      cases = casesData.filter((case1) => {
+        {
+          return (
+            case1.nextHearing &&
+            case1.nextHearing.dateTime >= newDate &&
+            case1.nextHearing.dateTime <= new Date(newDate.getTime() + 86400000)
+          );
+        }
+      });
+    } else {
+      const court = await Court.getTodayCases(data.court);
+      if (!court) throw new Error("Court not found");
+      cases = court.cases;
+      cases = cases.filter((case1) => {
+        {
+          return (
+            case1.nextHearing &&
+            case1.nextHearing.dateTime >= newDate &&
+            case1.nextHearing.dateTime <= new Date(newDate.getTime() + 86400000)
+          );
+        }
+      });
+    }
+    return cases;
+  } catch (error) {
+    throw error;
+  }
+};
+
+exports.getScheduledCases = async (data) => {
+  try {
+    if (!data) throw new Error("Data is required");
+    if (!data.userId) throw new Error("Registrar id is required");
+    const registrar = await Registrar.getById(data.userId);
+    if (!registrar) throw new Error("Invalid Registrar");
+    if (!data.startDate) throw new Error("Start Date is required");
+    if (!data.endDate) throw new Error("End Date is required");
+    const startDate = new Date(data.startDate);
+    startDate.setHours(0, 0, 0, 0);
+    const endDate = new Date(data.endDate);
+    endDate.setHours(23, 59, 59, 999);
+    if (isNaN(startDate) || isNaN(endDate)) throw new Error("Invalid Dates");
+    const caseData = await Case.getScheduledCases(startDate, endDate);
+    return caseData || [];
+  } catch (error) {
+    throw error;
+  }
+};
+
+exports.casesView = async (registrar) => {
+  try {
+    if (!registrar) throw new Error("registrar object is required");
+    if (!registrar.id) throw new Error("registrar id is required");
+    if (!registrar.CIN) throw new Error("CIN is required");
+    const registrarData = await Registrar.getById(registrar.id);
+    if (!registrarData) throw new Error("Invalid Registrar");
+    const caseData = await Case.getCaseByCINWithInfo(registrar.CIN);
+    if (!caseData) throw new Error("Invalid Case");
+    return caseData;
   } catch (error) {
     throw error;
   }

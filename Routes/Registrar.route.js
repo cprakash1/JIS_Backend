@@ -13,6 +13,11 @@ const {
   assignDate,
   addSummery,
   getCompleteDetails,
+  closeCase,
+  getPendingCases,
+  getTodayCases,
+  getScheduledCases,
+  casesView,
 } = require("../Controllers/Registrar.controller");
 const { verifyLogin } = require("../Helper/loginVerifier.helper");
 const { verifyPublicKey } = require("../Helper/publicKeyVerifier.helper");
@@ -49,5 +54,10 @@ router.post("/get-Schedule", verifyLogin, getSchedule);
 router.post("/date-selected", verifyLogin, assignDate);
 router.post("/add-Summery", verifyLogin, addSummery);
 router.post("/get-complete-details", verifyLogin, getCompleteDetails);
+router.post("/close-case", verifyLogin, closeCase);
+router.post("/get-pending-cases", verifyLogin, getPendingCases);
+router.post("/get-today-cases", verifyLogin, getTodayCases);
+router.post("/get-ranged-cases", verifyLogin, getScheduledCases);
+router.post("/case-view", verifyLogin, userIdAsId, casesView);
 
 module.exports = router;

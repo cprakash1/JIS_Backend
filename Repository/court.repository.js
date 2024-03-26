@@ -108,6 +108,35 @@ class CourtRepository {
       throw error;
     }
   }
+  async getCourtByIdWithCaseCINAndStatusPending(id) {
+    try {
+      if (!id) throw new Error("Id is required");
+      return await Court.findOne({ id }).populate({
+        path: "cases",
+        match: { status: "pending" },
+        select: "CIN status",
+      });
+    } catch (error) {
+      throw error;
+    }
+  }
+
+  async getTodayCases(id) {
+    try {
+      if (!id) throw new Error("Id is required");
+      const court = await Court.findOne({ id }).populate({
+        path: "cases",
+        populate: {
+          path: "nextHearing court",
+          select: "dateTime name location",
+        },
+        select: "nextHearing CIN court",
+      });
+      return court;
+    } catch (error) {
+      throw error;
+    }
+  }
 }
 
 module.exports = new CourtRepository();
