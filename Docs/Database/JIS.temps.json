@@ -1,0 +1,40 @@
+[{
+  "_id": {
+    "$oid": "66004c38a4a14c6966b0dbb2"
+  },
+  "name": "registrar",
+  "__v": 0,
+  "count": 5
+},
+{
+  "_id": {
+    "$oid": "66004c7fa4a14c6966b14c7d"
+  },
+  "name": "court",
+  "__v": 0,
+  "count": 6
+},
+{
+  "_id": {
+    "$oid": "66004cc9a4a14c6966b1bf26"
+  },
+  "name": "judge",
+  "__v": 0,
+  "count": 5
+},
+{
+  "_id": {
+    "$oid": "66004d15a4a14c6966b23a3d"
+  },
+  "name": "lawyer",
+  "__v": 0,
+  "count": 6
+},
+{
+  "_id": {
+    "$oid": "66004d97a4a14c6966b30552"
+  },
+  "name": "case",
+  "__v": 0,
+  "count": 9
+}]

@@ -1,0 +1,134 @@
+[{
+  "_id": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  },
+  "id": "C1",
+  "name": "Supreme Court",
+  "location": "New Delhi",
+  "cases": [
+    {
+      "$oid": "66004d971432c0b8380cf816"
+    },
+    {
+      "$oid": "660051ee1432c0b8380cf919"
+    },
+    {
+      "$oid": "6601581755ec547b8e61cbd1"
+    },
+    {
+      "$oid": "6601592255ec547b8e61cc02"
+    },
+    {
+      "$oid": "6601598c55ec547b8e61cc27"
+    },
+    {
+      "$oid": "6602dbf9d7b018b4405ff773"
+    },
+    {
+      "$oid": "6613c0486f0af4d534561b23"
+    },
+    {
+      "$oid": "662001aea7c7c2037a78bb30"
+    },
+    {
+      "$oid": "6620037ea7c7c2037a78bbaa"
+    }
+  ],
+  "registrar": [],
+  "judges": [
+    {
+      "$oid": "66004cc91432c0b8380cf7e7"
+    },
+    {
+      "$oid": "66004ce61432c0b8380cf7f0"
+    },
+    {
+      "$oid": "6601635944bab6fff95f959d"
+    },
+    {
+      "$oid": "6613bd876f0af4d534561ac0"
+    },
+    {
+      "$oid": "661fff64a7c7c2037a78bae3"
+    }
+  ],
+  "lawyers": [
+    {
+      "$oid": "66004d161432c0b8380cf7fb"
+    },
+    {
+      "$oid": "66004d401432c0b8380cf806"
+    },
+    {
+      "$oid": "66015bea55ec547b8e61cc52"
+    },
+    {
+      "$oid": "6601630c44bab6fff95f9592"
+    },
+    {
+      "$oid": "6613bdc26f0af4d534561ace"
+    }
+  ],
+  "publicProsecutors": [],
+  "__v": 19
+},
+{
+  "_id": {
+    "$oid": "66004c981432c0b8380cf7de"
+  },
+  "id": "C2",
+  "name": "Patna High Court",
+  "location": "Patna",
+  "cases": [],
+  "registrar": [],
+  "judges": [],
+  "lawyers": [],
+  "publicProsecutors": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66015ab955ec547b8e61cc39"
+  },
+  "id": "C3",
+  "name": "Bengal High Court",
+  "location": "Bengal",
+  "cases": [],
+  "registrar": [],
+  "judges": [],
+  "lawyers": [
+    {
+      "$oid": "66200007a7c7c2037a78bafe"
+    }
+  ],
+  "publicProsecutors": [],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "66015adb55ec547b8e61cc40"
+  },
+  "id": "C4",
+  "name": "Hyderabad High Court",
+  "location": "Hyderabad",
+  "cases": [],
+  "registrar": [],
+  "judges": [],
+  "lawyers": [],
+  "publicProsecutors": [],
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200045a7c7c2037a78bb07"
+  },
+  "id": "C6",
+  "name": "Madras High Court",
+  "location": "Chennai",
+  "cases": [],
+  "registrar": [],
+  "judges": [],
+  "lawyers": [],
+  "publicProsecutors": [],
+  "__v": 0
+}]

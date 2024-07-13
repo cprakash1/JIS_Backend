@@ -2,10 +2,10 @@
 
 ## Group Members
 - Chandra Prakash
+- Chahat Jain
 - Anil Budamakuntla
 - Chenreddy Sumana
 - Budamakuntla Anil
-- Chahat Jain
   
 ## TA Assigned
 - Mr. Rahul Sir
@@ -26,7 +26,7 @@ The lawyers and the judges need to refer to the past court cases. The lawyers  n
 - Frontend: ReactJS
 - Backend: NodeJS
 - Database: MongoDB
-- Hosting: Backend on Render and Frontend on Netlify
+- Hosting: Backend and Frontend are hosted on Render
   
 
 
@@ -52,8 +52,7 @@ Run the following command in the terminal
 - `npm install`
 - `node index.js` or `nodemon index.js`
 
-## This is only the Backend part of the project. The Frontend part of the project is in the following repository which is also made by our group members which is hosted on Netlify - [Frontend Repository](https://github.com/ANIL-BUDAMAKUNTLA/temp)
+## This is only the Backend part of the project. The Frontend part of the project is in the following repository which is also made by our group members which is hosted on Render - [Frontend Repository](https://github.com/cprakash1/JIS-Frontend.git)
 
-## The website is hosted on Netlify - [Website Link](https://jisgroup11.netlify.app/)
+## The website is hosted on Netlify - [Website Link](https://jis-frontend.onrender.com)
 
-## I Will Soon Add Documentation for SRS.

@@ -1,0 +1,196 @@
+[{
+  "_id": {
+    "$oid": "66004cc91432c0b8380cf7e7"
+  },
+  "id": "J1",
+  "name": "Ram",
+  "email": "ram@gmail.com",
+  "password": "$2b$10$S2lLYVmEdEtfSf0FZIhB/OIBNEFyQNN61MwF/ckIxwtKPTXvpoPH2",
+  "phone": "1234567890",
+  "address": "Delhi",
+  "court": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  },
+  "cases": [
+    {
+      "$oid": "6601581755ec547b8e61cbd1"
+    }
+  ],
+  "casesSeen": [
+    {
+      "$oid": "66004d971432c0b8380cf816"
+    }
+  ],
+  "schedule": [],
+  "history": [
+    {
+      "$oid": "6603daab09647aaf312648eb"
+    }
+  ],
+  "__v": 5
+},
+{
+  "_id": {
+    "$oid": "66004ce61432c0b8380cf7f0"
+  },
+  "id": "J2",
+  "name": "Prit Prakash",
+  "email": "prit@jis.com",
+  "password": "$2b$10$kKAGUVqKJx7f3qQUzmkXou4j9znmOLjAqX1VHEl1oDMrGpM5Yrrme",
+  "phone": "1234567880",
+  "address": "Delhi",
+  "court": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  },
+  "cases": [
+    {
+      "$oid": "66004d971432c0b8380cf816"
+    },
+    {
+      "$oid": "660051ee1432c0b8380cf919"
+    },
+    {
+      "$oid": "6601592255ec547b8e61cc02"
+    },
+    {
+      "$oid": "6601598c55ec547b8e61cc27"
+    },
+    {
+      "$oid": "6602dbf9d7b018b4405ff773"
+    },
+    {
+      "$oid": "6620037ea7c7c2037a78bbaa"
+    }
+  ],
+  "casesSeen": [
+    {
+      "$oid": "66004d971432c0b8380cf816"
+    },
+    {
+      "$oid": "660051ee1432c0b8380cf919"
+    },
+    {
+      "$oid": "6601592255ec547b8e61cc02"
+    },
+    {
+      "$oid": "6601581755ec547b8e61cbd1"
+    },
+    {
+      "$oid": "6601598c55ec547b8e61cc27"
+    },
+    {
+      "$oid": "6613c0486f0af4d534561b23"
+    },
+    {
+      "$oid": "6620037ea7c7c2037a78bbaa"
+    }
+  ],
+  "schedule": [],
+  "history": [
+    {
+      "$oid": "66004dcf1432c0b8380cf836"
+    },
+    {
+      "$oid": "66004e1d1432c0b8380cf85f"
+    },
+    {
+      "$oid": "660153a655ec547b8e61cb46"
+    },
+    {
+      "$oid": "6603dad909647aaf312648fd"
+    },
+    {
+      "$oid": "661ffc39a7c7c2037a78ba35"
+    },
+    {
+      "$oid": "66239b447b7683ff0038a0fd"
+    },
+    {
+      "$oid": "66239b977b7683ff0038a123"
+    },
+    {
+      "$oid": "66239ca17b7683ff0038a17b"
+    }
+  ],
+  "__v": 37
+},
+{
+  "_id": {
+    "$oid": "6601635944bab6fff95f959d"
+  },
+  "id": "J3",
+  "name": "Chaghan Lal Chaurasiya",
+  "email": "chagan@gmail.com",
+  "password": "$2b$10$IHK9eP6ox0YlLgdB/YhBKuU3wK8.xQeRmIHSWZKML4t.dd17ZLlfq",
+  "phone": "12234512310",
+  "address": "DELHi opposite of minar",
+  "court": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  },
+  "cases": [
+    {
+      "$oid": "662001aea7c7c2037a78bb30"
+    }
+  ],
+  "casesSeen": [],
+  "schedule": [
+    {
+      "$oid": "66223f5bfaded8a977f1f341"
+    }
+  ],
+  "history": [
+    {
+      "$oid": "66223db7b9ac41da8d6a7955"
+    },
+    {
+      "$oid": "66223e23faded8a977f1f304"
+    }
+  ],
+  "__v": 8
+},
+{
+  "_id": {
+    "$oid": "6613bd876f0af4d534561ac0"
+  },
+  "id": "J4",
+  "name": "Chahat Jain",
+  "email": "21je0257@iitism.ac.in",
+  "password": "$2b$10$/tO0/qOATYg0lCqxlGIUIOLbyBHijWfShMVg3Pf.nQHUxbsOelJIy",
+  "phone": "7869203072",
+  "address": "aquamarine",
+  "court": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  },
+  "cases": [
+    {
+      "$oid": "6613c0486f0af4d534561b23"
+    }
+  ],
+  "casesSeen": [],
+  "schedule": [],
+  "history": [],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "661fff64a7c7c2037a78bae3"
+  },
+  "id": "J5",
+  "name": "Raj",
+  "email": "Raj@jis.com",
+  "password": "$2b$10$OiaNhoimUJ.xMKaYOHqjOu60psLvKmQfPIiEBwkYZBSLFuZ3Frmfy",
+  "phone": "9555666777",
+  "address": "Delhi ",
+  "court": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  },
+  "cases": [],
+  "casesSeen": [
+    {
+      "$oid": "6620037ea7c7c2037a78bbaa"
+    }
+  ],
+  "schedule": [],
+  "history": [],
+  "__v": 1
+}]

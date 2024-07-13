@@ -1,0 +1,220 @@
+[{
+  "_id": {
+    "$oid": "66004dcf1432c0b8380cf836"
+  },
+  "case": {
+    "$oid": "66004d971432c0b8380cf816"
+  },
+  "comment": "Victim Not Healthy",
+  "date": {
+    "$date": "2024-03-25T11:00:00.000Z"
+  },
+  "status": "Adjourned",
+  "createdAt": {
+    "$date": "2024-03-24T15:59:11.651Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-24T15:59:11.651Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66004e1d1432c0b8380cf85f"
+  },
+  "case": {
+    "$oid": "66004d971432c0b8380cf816"
+  },
+  "comment": "Victim required to submit Record of Transactions",
+  "date": {
+    "$date": "2024-03-25T14:00:00.000Z"
+  },
+  "status": "Summery",
+  "createdAt": {
+    "$date": "2024-03-24T16:00:29.425Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-24T16:00:29.425Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660153a655ec547b8e61cb46"
+  },
+  "case": {
+    "$oid": "66004d971432c0b8380cf816"
+  },
+  "comment": "khbfhjdf",
+  "date": {
+    "$date": "2024-03-25T14:00:00.000Z"
+  },
+  "status": "Summery",
+  "createdAt": {
+    "$date": "2024-03-25T10:36:22.358Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-25T10:36:22.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603daab09647aaf312648eb"
+  },
+  "case": {
+    "$oid": "6601581755ec547b8e61cbd1"
+  },
+  "comment": "Case Already Closed",
+  "date": {
+    "$date": "2024-03-27T09:30:00.000Z"
+  },
+  "status": "Adjourned",
+  "createdAt": {
+    "$date": "2024-03-27T08:36:59.088Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:36:59.088Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603dad909647aaf312648fd"
+  },
+  "case": {
+    "$oid": "66004d971432c0b8380cf816"
+  },
+  "comment": "Victim is sent to Imprisionment for 10 years.Case Closed...",
+  "date": {
+    "$date": "2024-03-25T09:00:00.000Z"
+  },
+  "status": "Summery",
+  "createdAt": {
+    "$date": "2024-03-27T08:37:45.609Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:37:45.609Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffc39a7c7c2037a78ba35"
+  },
+  "case": {
+    "$oid": "6602dbf9d7b018b4405ff773"
+  },
+  "comment": "user not appeared",
+  "date": {
+    "$date": "2024-04-17T10:30:00.000Z"
+  },
+  "status": "Adjourned",
+  "createdAt": {
+    "$date": "2024-04-17T16:43:37.826Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:43:37.826Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223db7b9ac41da8d6a7955"
+  },
+  "case": {
+    "$oid": "662001aea7c7c2037a78bb30"
+  },
+  "comment": "Adjorned",
+  "date": {
+    "$date": "2024-04-19T05:00:00.000Z"
+  },
+  "status": "Adjourned",
+  "createdAt": {
+    "$date": "2024-04-19T09:47:35.509Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:47:35.509Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223e23faded8a977f1f304"
+  },
+  "case": {
+    "$oid": "662001aea7c7c2037a78bb30"
+  },
+  "comment": "hi",
+  "date": {
+    "$date": "2024-04-19T04:30:00.000Z"
+  },
+  "status": "Adjourned",
+  "createdAt": {
+    "$date": "2024-04-19T09:49:23.725Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:49:23.725Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239b447b7683ff0038a0fd"
+  },
+  "case": {
+    "$oid": "66004d971432c0b8380cf816"
+  },
+  "comment": "Case Already Closed",
+  "date": {
+    "$date": "2024-04-03T10:00:00.000Z"
+  },
+  "status": "Adjourned",
+  "createdAt": {
+    "$date": "2024-04-20T10:39:00.535Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:39:00.535Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239b977b7683ff0038a123"
+  },
+  "case": {
+    "$oid": "660051ee1432c0b8380cf919"
+  },
+  "comment": "File not Valid . Reappeae next week",
+  "date": {
+    "$date": "2024-03-25T10:00:00.000Z"
+  },
+  "status": "Summery",
+  "createdAt": {
+    "$date": "2024-04-20T10:40:23.600Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:40:23.600Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239ca17b7683ff0038a17b"
+  },
+  "case": {
+    "$oid": "6620037ea7c7c2037a78bbaa"
+  },
+  "comment": "Evidence not valid. Reappear next Time.",
+  "date": {
+    "$date": "2024-04-17T11:30:00.000Z"
+  },
+  "status": "Summery",
+  "createdAt": {
+    "$date": "2024-04-20T10:44:49.559Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:44:49.559Z"
+  },
+  "__v": 0
+}]

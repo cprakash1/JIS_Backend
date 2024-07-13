@@ -1,0 +1,341 @@
+[{
+  "_id": {
+    "$oid": "66004d161432c0b8380cf7fb"
+  },
+  "id": "L1",
+  "name": "Mohan Lal Pandey",
+  "email": "mohan@jis.com",
+  "password": "$2b$10$DeVf6hoDBf9arUvLSnHYL.OMdrR5oSihbskTHbPbPG1E4d79AkU8.",
+  "phone": "1234567790",
+  "address": "Kerala",
+  "court": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  },
+  "cases": [
+    {
+      "$oid": "66004d971432c0b8380cf816"
+    },
+    {
+      "$oid": "660051ee1432c0b8380cf919"
+    },
+    {
+      "$oid": "6601581755ec547b8e61cbd1"
+    },
+    {
+      "$oid": "6601592255ec547b8e61cc02"
+    },
+    {
+      "$oid": "6602dbf9d7b018b4405ff773"
+    },
+    {
+      "$oid": "662001aea7c7c2037a78bb30"
+    },
+    {
+      "$oid": "6620037ea7c7c2037a78bbaa"
+    }
+  ],
+  "paymentLeft": 2539,
+  "paymentHistory": [
+    {
+      "$oid": "66004fef1432c0b8380cf901"
+    },
+    {
+      "$oid": "66018c90c750de46276188ae"
+    },
+    {
+      "$oid": "66018cecc750de46276188b5"
+    },
+    {
+      "$oid": "66018d57c750de46276188ce"
+    },
+    {
+      "$oid": "66018d9fc750de46276188d5"
+    },
+    {
+      "$oid": "66018dc4c750de46276188dc"
+    },
+    {
+      "$oid": "66018dd0c750de46276188e3"
+    },
+    {
+      "$oid": "66018e2ac750de46276188e8"
+    },
+    {
+      "$oid": "66018e3dc750de46276188ef"
+    },
+    {
+      "$oid": "66018e47c750de46276188f4"
+    },
+    {
+      "$oid": "6620a53a52e56ecaa78668d2"
+    },
+    {
+      "$oid": "66239a4c7b7683ff0038a0bf"
+    },
+    {
+      "$oid": "66239a5d7b7683ff0038a0c8"
+    }
+  ],
+  "schedule": [
+    {
+      "$oid": "66223f5bfaded8a977f1f341"
+    }
+  ],
+  "casesSeen": [
+    {
+      "$oid": "66004d971432c0b8380cf816"
+    },
+    {
+      "$oid": "660051ee1432c0b8380cf919"
+    },
+    {
+      "$oid": "6601581755ec547b8e61cbd1"
+    },
+    {
+      "$oid": "6601592255ec547b8e61cc02"
+    },
+    {
+      "$oid": "6601598c55ec547b8e61cc27"
+    },
+    {
+      "$oid": "662001aea7c7c2037a78bb30"
+    }
+  ],
+  "history": [
+    {
+      "$oid": "66004dcf1432c0b8380cf836"
+    },
+    {
+      "$oid": "66004e1d1432c0b8380cf85f"
+    },
+    {
+      "$oid": "660153a655ec547b8e61cb46"
+    },
+    {
+      "$oid": "6603daab09647aaf312648eb"
+    },
+    {
+      "$oid": "6603dad909647aaf312648fd"
+    },
+    {
+      "$oid": "661ffc39a7c7c2037a78ba35"
+    },
+    {
+      "$oid": "66223db7b9ac41da8d6a7955"
+    },
+    {
+      "$oid": "66223e23faded8a977f1f304"
+    },
+    {
+      "$oid": "66239b447b7683ff0038a0fd"
+    },
+    {
+      "$oid": "66239b977b7683ff0038a123"
+    },
+    {
+      "$oid": "66239ca17b7683ff0038a17b"
+    }
+  ],
+  "__v": 60
+},
+{
+  "_id": {
+    "$oid": "66004d401432c0b8380cf806"
+  },
+  "id": "L2",
+  "name": "Shyam Kumar",
+  "email": "shyam@gmail.com",
+  "password": "$2b$10$NCwRoQ/BoIS171zXS5VpHOHqkI/usE1oGoG7ULdksS3NbBG/XpK.S",
+  "phone": "1234567590",
+  "address": "Assam",
+  "court": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  },
+  "cases": [
+    {
+      "$oid": "66004d971432c0b8380cf816"
+    },
+    {
+      "$oid": "660051ee1432c0b8380cf919"
+    },
+    {
+      "$oid": "6601592255ec547b8e61cc02"
+    },
+    {
+      "$oid": "6601598c55ec547b8e61cc27"
+    },
+    {
+      "$oid": "662001aea7c7c2037a78bb30"
+    }
+  ],
+  "paymentLeft": 200,
+  "paymentHistory": [
+    {
+      "$oid": "6603dbfe09647aaf31264968"
+    },
+    {
+      "$oid": "6603dc0609647aaf3126496f"
+    }
+  ],
+  "schedule": [
+    {
+      "$oid": "66223f5bfaded8a977f1f341"
+    }
+  ],
+  "casesSeen": [
+    {
+      "$oid": "6601581755ec547b8e61cbd1"
+    }
+  ],
+  "history": [
+    {
+      "$oid": "66004dcf1432c0b8380cf836"
+    },
+    {
+      "$oid": "66004e1d1432c0b8380cf85f"
+    },
+    {
+      "$oid": "660153a655ec547b8e61cb46"
+    },
+    {
+      "$oid": "6603dad909647aaf312648fd"
+    },
+    {
+      "$oid": "66223db7b9ac41da8d6a7955"
+    },
+    {
+      "$oid": "66223e23faded8a977f1f304"
+    },
+    {
+      "$oid": "66239b447b7683ff0038a0fd"
+    },
+    {
+      "$oid": "66239b977b7683ff0038a123"
+    }
+  ],
+  "__v": 33
+},
+{
+  "_id": {
+    "$oid": "66015bea55ec547b8e61cc52"
+  },
+  "id": "L3",
+  "name": "Maari Lal Sundar",
+  "email": "maari@gmail.com",
+  "password": "$2b$10$2cdFsWfK8sPY5wtFV0Tw/u6HrAPexkl797I9oRHWiDRInOqtSTOZC",
+  "phone": "1234563120",
+  "address": "Kethopuram East Asia",
+  "court": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  },
+  "cases": [
+    {
+      "$oid": "6602dbf9d7b018b4405ff773"
+    },
+    {
+      "$oid": "662001aea7c7c2037a78bb30"
+    }
+  ],
+  "paymentLeft": 0,
+  "paymentHistory": [],
+  "schedule": [
+    {
+      "$oid": "66223f5bfaded8a977f1f341"
+    }
+  ],
+  "casesSeen": [],
+  "history": [
+    {
+      "$oid": "661ffc39a7c7c2037a78ba35"
+    },
+    {
+      "$oid": "66223db7b9ac41da8d6a7955"
+    },
+    {
+      "$oid": "66223e23faded8a977f1f304"
+    }
+  ],
+  "__v": 12
+},
+{
+  "_id": {
+    "$oid": "6601630c44bab6fff95f9592"
+  },
+  "id": "L4",
+  "name": "Shambu Patra Tiwary",
+  "email": "shambhu@gmail.com",
+  "password": "$2b$10$MJ3rLcBTVx0kwlnRTGCwQOPVZSLMLy.QnJg1V7XZSHTXfSGkdx6DW",
+  "phone": "1223465550",
+  "address": "Delhi NCR",
+  "court": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  },
+  "cases": [
+    {
+      "$oid": "6602dbf9d7b018b4405ff773"
+    }
+  ],
+  "paymentLeft": 0,
+  "paymentHistory": [],
+  "schedule": [],
+  "casesSeen": [],
+  "history": [
+    {
+      "$oid": "661ffc39a7c7c2037a78ba35"
+    }
+  ],
+  "__v": 4
+},
+{
+  "_id": {
+    "$oid": "6613bdc26f0af4d534561ace"
+  },
+  "id": "L5",
+  "name": "Anil ",
+  "email": "21je0252@iitism.ac.in",
+  "password": "$2b$10$ib5IaxZZepsEeTjnkBy.a.BL7xFsvxBatFscNdiYhdMXeA0PLSoqW",
+  "phone": "3364738211",
+  "address": "aquamarine",
+  "court": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  },
+  "cases": [
+    {
+      "$oid": "6613c0486f0af4d534561b23"
+    }
+  ],
+  "paymentLeft": 0,
+  "paymentHistory": [],
+  "schedule": [],
+  "casesSeen": [],
+  "history": [],
+  "__v": 1
+},
+{
+  "_id": {
+    "$oid": "66200007a7c7c2037a78bafe"
+  },
+  "id": "L6",
+  "name": "Balaji kalangi",
+  "email": "balajik@jis.com",
+  "password": "$2b$10$57AnPG9yhpnJwwQGEDd.4.mDK7bOtU6BHs7iFkXVPeAPsUBr27QRS",
+  "phone": "9367464547",
+  "address": "Park Street, Kolkata",
+  "court": {
+    "$oid": "66015ab955ec547b8e61cc39"
+  },
+  "cases": [],
+  "paymentLeft": 1600,
+  "paymentHistory": [],
+  "schedule": [],
+  "casesSeen": [
+    {
+      "$oid": "6620037ea7c7c2037a78bbaa"
+    },
+    {
+      "$oid": "6602dbf9d7b018b4405ff773"
+    }
+  ],
+  "history": [],
+  "__v": 2
+}]

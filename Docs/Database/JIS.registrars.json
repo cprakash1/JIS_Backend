@@ -1,0 +1,75 @@
+[{
+  "_id": {
+    "$oid": "66004c381432c0b8380cf7ca"
+  },
+  "id": "R1",
+  "name": "Shyam Panday",
+  "email": "shyam@jis.com",
+  "password": "$2b$10$ztHfR2qbdGQrH1dV3WeCkOdzO6iqqbM99HyALBSx.lVWdqVp4kNJu",
+  "phone": "123456",
+  "address": "Lucky Sarai West Up",
+  "__v": 0,
+  "court": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  }
+},
+{
+  "_id": {
+    "$oid": "66066a5dd17b199759d33108"
+  },
+  "id": "R2",
+  "name": "Raman Dubey",
+  "email": "raman@gmail.com",
+  "password": "$2b$10$S3zga29.BmII8wD8UTScj.9G53aJqPn.mxQnw5CbE42ksyIfqKBmu",
+  "phone": "9874512360",
+  "address": "<script>alert(\"Hello\")</script>",
+  "court": {
+    "$oid": "66004c981432c0b8380cf7de"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bc5d6f0af4d534561aa8"
+  },
+  "id": "R3",
+  "name": "Chahat Jain",
+  "email": "21je0257@iitism.ac.in",
+  "password": "$2b$10$dv3MUGXQweId5Ow43ZDMLuw8T8xDeQxfoPfyOk/GQ/ATU790MCQ/S",
+  "phone": "1234567890",
+  "address": "aquamarine",
+  "__v": 0,
+  "court": {
+    "$oid": "6613bdfd6f0af4d534561ad7"
+  }
+},
+{
+  "_id": {
+    "$oid": "661ffafea7c7c2037a78b9d7"
+  },
+  "id": "R4",
+  "name": "ANIL BUDAMAKUNTLA",
+  "email": "anil@jis.com",
+  "password": "$2b$10$jngg9v3DYjj0OZImy8A3j.zv0Ax.tnud7F8MBTapa0UZnbe7HLrBe",
+  "phone": "9988776655",
+  "address": "Darsi Maharastra",
+  "court": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffd9fa7c7c2037a78ba8d"
+  },
+  "id": "R5",
+  "name": "sumana",
+  "email": "21je0263@iitism.ac.in",
+  "password": "$2b$10$SGcWcajooEpCwtL/LDl9nOVygtzONSJjs2ziQF1nrqWeDytQ1Lq3G",
+  "phone": "9010591273",
+  "address": "ISM",
+  "court": {
+    "$oid": "66004c7f1432c0b8380cf7d7"
+  },
+  "__v": 0
+}]

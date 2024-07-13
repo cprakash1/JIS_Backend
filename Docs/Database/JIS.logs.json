@@ -1,0 +1,8625 @@
+[{
+  "_id": {
+    "$oid": "660325d604983d0693ea2a82"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-03-26T19:45:26.834Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-26T19:45:26.834Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660325d804983d0693ea2a85"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711482327,\"exp\":1711568727}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-03-26T19:45:28.409Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-26T19:45:28.409Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603d9f609647aaf312648a7"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-03-27T08:33:58.467Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:33:58.467Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603d9f609647aaf312648aa"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-03-27T08:33:58.756Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:33:58.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603d9f709647aaf312648ad"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1711528439,\"exp\":1711614839}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-03-27T08:33:59.831Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:33:59.831Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603da1b09647aaf312648b7"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1711528439,\"exp\":1711614839}",
+  "method": "POST",
+  "url": "/judge/case-view",
+  "createdAt": {
+    "$date": "2024-03-27T08:34:35.882Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:34:35.882Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603da4309647aaf312648bf"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1711528439,\"exp\":1711614839}",
+  "method": "POST",
+  "url": "/judge/search",
+  "createdAt": {
+    "$date": "2024-03-27T08:35:15.820Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:35:15.820Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603da4c09647aaf312648c3"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1711528439,\"exp\":1711614839}",
+  "method": "POST",
+  "url": "/judge/search",
+  "createdAt": {
+    "$date": "2024-03-27T08:35:24.520Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:35:24.520Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603da5509647aaf312648c7"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-03-27T08:35:33.586Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:35:33.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603da7109647aaf312648ca"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-03-27T08:36:01.517Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:36:01.517Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603da7309647aaf312648cd"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-03-27T08:36:03.320Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:36:03.320Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603da8509647aaf312648d1"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-03-27T08:36:21.470Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:36:21.470Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603da8d09647aaf312648d8"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/date-selected",
+  "createdAt": {
+    "$date": "2024-03-27T08:36:29.043Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:36:29.043Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603daaa09647aaf312648e6"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/add-summery",
+  "createdAt": {
+    "$date": "2024-03-27T08:36:58.812Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:36:58.812Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603dad909647aaf312648f8"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/add-summery",
+  "createdAt": {
+    "$date": "2024-03-27T08:37:45.333Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:37:45.333Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603dae309647aaf3126490e"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/close-case",
+  "createdAt": {
+    "$date": "2024-03-27T08:37:55.662Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:37:55.662Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603daee09647aaf31264913"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-03-27T08:38:06.208Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:38:06.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603db0a09647aaf3126491b"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/close-case",
+  "createdAt": {
+    "$date": "2024-03-27T08:38:34.915Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:38:34.915Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603db0e09647aaf3126491f"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-03-27T08:38:38.792Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:38:38.792Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603db1409647aaf31264922"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-03-27T08:38:44.900Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:38:44.900Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603db1c09647aaf31264927"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-03-27T08:38:52.816Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:38:52.816Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603db2209647aaf31264929"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-03-27T08:38:58.224Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:38:58.224Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603db2609647aaf3126492d"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-03-27T08:39:02.516Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:39:02.516Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603db2809647aaf31264930"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-03-27T08:39:04.765Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:39:04.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603db3309647aaf31264936"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/get-ranged-cases",
+  "createdAt": {
+    "$date": "2024-03-27T08:39:15.155Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:39:15.155Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603db3f09647aaf3126493a"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711528561,\"exp\":1711614961}",
+  "method": "POST",
+  "url": "/registrar/search",
+  "createdAt": {
+    "$date": "2024-03-27T08:39:27.931Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:39:27.931Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603db5d09647aaf3126493e"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-03-27T08:39:57.721Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:39:57.721Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603db5e09647aaf31264941"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1711528798,\"exp\":1711615198}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-03-27T08:39:58.940Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:39:58.940Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603db9109647aaf3126494b"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-03-27T08:40:49.129Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:40:49.129Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603db9209647aaf3126494e"
+  },
+  "id": "{\"id\":\"L2\",\"iat\":1711528849,\"exp\":1711615249}",
+  "method": "POST",
+  "url": "/lawyer/get-complete-details",
+  "createdAt": {
+    "$date": "2024-03-27T08:40:50.360Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:40:50.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603dbb909647aaf31264957"
+  },
+  "id": "{\"id\":\"L2\",\"iat\":1711528849,\"exp\":1711615249}",
+  "method": "POST",
+  "url": "/lawyer/search",
+  "createdAt": {
+    "$date": "2024-03-27T08:41:29.066Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:41:29.066Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603dbd109647aaf3126495b"
+  },
+  "id": "{\"id\":\"L2\",\"iat\":1711528849,\"exp\":1711615249}",
+  "method": "POST",
+  "url": "/lawyer/case-view",
+  "createdAt": {
+    "$date": "2024-03-27T08:41:53.725Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:41:53.725Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603dbfe09647aaf31264965"
+  },
+  "id": "{\"id\":\"L2\",\"iat\":1711528849,\"exp\":1711615249}",
+  "method": "POST",
+  "url": "/lawyer/payment",
+  "createdAt": {
+    "$date": "2024-03-27T08:42:38.375Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:42:38.375Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603dc0609647aaf3126496c"
+  },
+  "id": "{\"id\":\"L2\",\"iat\":1711528849,\"exp\":1711615249}",
+  "method": "POST",
+  "url": "/lawyer/payment",
+  "createdAt": {
+    "$date": "2024-03-27T08:42:46.353Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T08:42:46.353Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603fc857425ec26945a5b07"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-03-27T11:01:25.935Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T11:01:25.935Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603fc867425ec26945a5b0a"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-03-27T11:01:26.528Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T11:01:26.528Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603fc877425ec26945a5b0d"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711537286,\"exp\":1711623686}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-03-27T11:01:27.432Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T11:01:27.432Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603fc957425ec26945a5b11"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-03-27T11:01:41.009Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T11:01:41.009Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603fc967425ec26945a5b14"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-03-27T11:01:42.895Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T11:01:42.895Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6603fc977425ec26945a5b17"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1711537287,\"exp\":1711623687}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-03-27T11:01:43.192Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-27T11:01:43.192Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066a2ad17b199759d330f9"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-03-29T07:13:46.307Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:13:46.307Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066a5cd17b199759d33102"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/register",
+  "createdAt": {
+    "$date": "2024-03-29T07:14:36.489Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:14:36.489Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066a81d17b199759d3310a"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-03-29T07:15:13.508Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:15:13.508Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066a82d17b199759d3310d"
+  },
+  "id": "{\"id\":\"R2\",\"iat\":1711696513,\"exp\":1711782913}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-03-29T07:15:14.793Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:15:14.793Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066a87d17b199759d33111"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-03-29T07:15:19.588Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:15:19.588Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066aa5d17b199759d33114"
+  },
+  "id": "{\"id\":\"R2\",\"iat\":1711696513,\"exp\":1711782913}",
+  "method": "POST",
+  "url": "/registrar/update-registrar",
+  "createdAt": {
+    "$date": "2024-03-29T07:15:49.578Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:15:49.578Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066aadd17b199759d3311b"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-03-29T07:15:57.680Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:15:57.680Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066ac3d17b199759d3311e"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-03-29T07:16:19.899Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:16:19.899Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066ac4d17b199759d33121"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-03-29T07:16:20.920Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:16:20.920Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066acfd17b199759d33124"
+  },
+  "id": "{\"id\":\"R2\",\"iat\":1711696513,\"exp\":1711782913}",
+  "method": "POST",
+  "url": "/registrar/get-ranged-cases",
+  "createdAt": {
+    "$date": "2024-03-29T07:16:31.284Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:16:31.284Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066ad3d17b199759d33128"
+  },
+  "id": "{\"id\":\"R2\",\"iat\":1711696513,\"exp\":1711782913}",
+  "method": "POST",
+  "url": "/registrar/get-ranged-cases",
+  "createdAt": {
+    "$date": "2024-03-29T07:16:35.701Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:16:35.701Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066ae1d17b199759d3312c"
+  },
+  "id": "{\"id\":\"R2\",\"iat\":1711696513,\"exp\":1711782913}",
+  "method": "POST",
+  "url": "/registrar/search",
+  "createdAt": {
+    "$date": "2024-03-29T07:16:49.033Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:16:49.033Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066aebd17b199759d33130"
+  },
+  "id": "{\"id\":\"R2\",\"iat\":1711696513,\"exp\":1711782913}",
+  "method": "POST",
+  "url": "/registrar/search",
+  "createdAt": {
+    "$date": "2024-03-29T07:16:59.332Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:16:59.332Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066af5d17b199759d33134"
+  },
+  "id": "{\"id\":\"R2\",\"iat\":1711696513,\"exp\":1711782913}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-03-29T07:17:09.388Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:17:09.388Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66066b13d17b199759d3313c"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-03-29T07:17:39.315Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-29T07:17:39.315Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66085d5f24e4b8c9e2b66059"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-03-30T18:43:43.801Z"
+  },
+  "updatedAt": {
+    "$date": "2024-03-30T18:43:43.801Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d9675c61dfc24d136dc80"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-03T17:48:37.504Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:48:37.504Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d9676c61dfc24d136dc83"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-03T17:48:38.223Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:48:38.223Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d967fc61dfc24d136dc86"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-03T17:48:47.808Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:48:47.808Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d9683c61dfc24d136dc89"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1712166528,\"exp\":1712252928}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-03T17:48:51.502Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:48:51.502Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d968ac61dfc24d136dc8d"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-03T17:48:58.443Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:48:58.443Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d968bc61dfc24d136dc90"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-03T17:48:59.957Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:48:59.957Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d9690c61dfc24d136dc93"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-03T17:49:04.373Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:49:04.373Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d9691c61dfc24d136dc96"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1712166528,\"exp\":1712252928}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-03T17:49:05.331Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:49:05.331Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d969bc61dfc24d136dc98"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1712166528,\"exp\":1712252928}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-03T17:49:15.973Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:49:15.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d96b6c61dfc24d136dca2"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1712166528,\"exp\":1712252928}",
+  "method": "POST",
+  "url": "/registrar/date-selected",
+  "createdAt": {
+    "$date": "2024-04-03T17:49:42.549Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:49:42.549Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d96c3c61dfc24d136dcb5"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1712166528,\"exp\":1712252928}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-03T17:49:55.800Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:49:55.800Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d96d8c61dfc24d136dcbe"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-03T17:50:16.728Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:50:16.728Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d96dbc61dfc24d136dcc1"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1712166528,\"exp\":1712252928}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-03T17:50:19.909Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:50:19.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d96e0c61dfc24d136dcc3"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1712166528,\"exp\":1712252928}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-03T17:50:24.784Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:50:24.784Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d96e4c61dfc24d136dcc8"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-03T17:50:28.346Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:50:28.346Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d96f8c61dfc24d136dccb"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-03T17:50:48.470Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:50:48.470Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d9703c61dfc24d136dcce"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1712166528,\"exp\":1712252928}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-03T17:50:59.105Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:50:59.105Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d9712c61dfc24d136dcd2"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1712166528,\"exp\":1712252928}",
+  "method": "POST",
+  "url": "/registrar/get-ranged-cases",
+  "createdAt": {
+    "$date": "2024-04-03T17:51:14.924Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:51:14.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d971dc61dfc24d136dcd6"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1712166528,\"exp\":1712252928}",
+  "method": "POST",
+  "url": "/registrar/search",
+  "createdAt": {
+    "$date": "2024-04-03T17:51:25.807Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:51:25.807Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "660d9722c61dfc24d136dcda"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-03T17:51:30.691Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-03T17:51:30.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bc5c6f0af4d534561aa3"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/register",
+  "createdAt": {
+    "$date": "2024-04-08T09:43:56.484Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:43:56.484Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bc776f0af4d534561aaa"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-08T09:44:23.606Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:44:23.606Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bc7d6f0af4d534561aad"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-08T09:44:29.154Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:44:29.154Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bc7e6f0af4d534561ab0"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-08T09:44:30.606Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:44:30.606Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bc846f0af4d534561ab3"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-08T09:44:36.973Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:44:36.973Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bd6b6f0af4d534561ab6"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-08T09:48:27.032Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:48:27.032Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bd866f0af4d534561ab9"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/register-judge",
+  "createdAt": {
+    "$date": "2024-04-08T09:48:54.917Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:48:54.917Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bd8b6f0af4d534561ac4"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-08T09:48:59.713Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:48:59.713Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bdc26f0af4d534561ac7"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/register-lawyer",
+  "createdAt": {
+    "$date": "2024-04-08T09:49:54.256Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:49:54.256Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bdfd6f0af4d534561ad2"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/register-court",
+  "createdAt": {
+    "$date": "2024-04-08T09:50:53.266Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:50:53.266Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bdff6f0af4d534561ad9"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-08T09:50:55.972Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:50:55.972Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613be5a6f0af4d534561adc"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-08T09:52:26.123Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:52:26.123Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613be5a6f0af4d534561adf"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-08T09:52:26.513Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:52:26.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bec56f0af4d534561ae1"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-08T09:54:13.334Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:54:13.334Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bf186f0af4d534561ae5"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-08T09:55:36.436Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:55:36.436Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bf266f0af4d534561aec"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-08T09:55:50.149Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:55:50.149Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bf346f0af4d534561aef"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/register-judge",
+  "createdAt": {
+    "$date": "2024-04-08T09:56:04.364Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:56:04.364Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bf3c6f0af4d534561af3"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/register-judge",
+  "createdAt": {
+    "$date": "2024-04-08T09:56:12.901Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:56:12.901Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bf5b6f0af4d534561af7"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/register-judge",
+  "createdAt": {
+    "$date": "2024-04-08T09:56:43.256Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:56:43.256Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bfc56f0af4d534561afb"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/register-judge",
+  "createdAt": {
+    "$date": "2024-04-08T09:58:29.630Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:58:29.630Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613bfdd6f0af4d534561aff"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/update-court",
+  "createdAt": {
+    "$date": "2024-04-08T09:58:53.355Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T09:58:53.355Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c02d6f0af4d534561b05"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/register-case",
+  "createdAt": {
+    "$date": "2024-04-08T10:00:13.724Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:00:13.724Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c03d6f0af4d534561b08"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/register-case",
+  "createdAt": {
+    "$date": "2024-04-08T10:00:29.559Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:00:29.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c03d6f0af4d534561b0d"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-08T10:00:29.940Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:00:29.940Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c03f6f0af4d534561b10"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1712570430,\"exp\":1712656830}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-08T10:00:31.296Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:00:31.296Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c0416f0af4d534561b14"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/register-case",
+  "createdAt": {
+    "$date": "2024-04-08T10:00:33.735Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:00:33.735Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c0436f0af4d534561b19"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-08T10:00:35.822Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:00:35.822Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c0486f0af4d534561b1c"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/register-case",
+  "createdAt": {
+    "$date": "2024-04-08T10:00:40.194Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:00:40.194Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c04a6f0af4d534561b2b"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-08T10:00:42.463Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:00:42.463Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c04f6f0af4d534561b2d"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-08T10:00:47.694Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:00:47.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c0536f0af4d534561b30"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-08T10:00:51.535Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:00:51.535Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c0596f0af4d534561b35"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-08T10:00:57.310Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:00:57.310Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c0636f0af4d534561b39"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-08T10:01:07.881Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:01:07.881Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c0676f0af4d534561b3e"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-08T10:01:11.659Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:01:11.659Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c0766f0af4d534561b42"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-08T10:01:26.701Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:01:26.701Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c07c6f0af4d534561b46"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-08T10:01:32.207Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:01:32.207Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c0806f0af4d534561b4b"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-08T10:01:36.597Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:01:36.597Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c0896f0af4d534561b4e"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/update-registrar",
+  "createdAt": {
+    "$date": "2024-04-08T10:01:45.352Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:01:45.352Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6613c0956f0af4d534561b55"
+  },
+  "id": "{\"id\":\"R3\",\"iat\":1712569469,\"exp\":1712655869}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-08T10:01:57.746Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-08T10:01:57.746Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fb7f4a7a4090eef36415a"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/getAllCourt",
+  "createdAt": {
+    "$date": "2024-04-17T11:52:20.173Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T11:52:20.173Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fb7f4a7a4090eef36415c"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/login",
+  "createdAt": {
+    "$date": "2024-04-17T11:52:20.378Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T11:52:20.378Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fb7f4a7a4090eef36415e"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/",
+  "createdAt": {
+    "$date": "2024-04-17T11:52:20.555Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T11:52:20.555Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fb7f4a7a4090eef364160"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/",
+  "createdAt": {
+    "$date": "2024-04-17T11:52:20.595Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T11:52:20.595Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fb7f5a7a4090eef364162"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/",
+  "createdAt": {
+    "$date": "2024-04-17T11:52:21.514Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T11:52:21.514Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fb7f6a7a4090eef364164"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/",
+  "createdAt": {
+    "$date": "2024-04-17T11:52:22.011Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T11:52:22.011Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fb802c909c6d93c88af2e"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/getAllCourt",
+  "createdAt": {
+    "$date": "2024-04-17T11:52:34.888Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T11:52:34.888Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fb8d9c909c6d93c88af30"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-17T11:56:09.008Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T11:56:09.008Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fb8dac909c6d93c88af33"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713354969,\"exp\":1713441369}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T11:56:10.358Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T11:56:10.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fb8dac909c6d93c88af35"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713354969,\"exp\":1713441369}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T11:56:10.360Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T11:56:10.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fba5fc909c6d93c88af3b"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-17T12:02:39.835Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T12:02:39.835Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fba6fc909c6d93c88af3e"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-17T12:02:55.413Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T12:02:55.413Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fba70c909c6d93c88af41"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713355375,\"exp\":1713441775}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T12:02:56.670Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T12:02:56.670Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fbb37c909c6d93c88af45"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-17T12:06:15.898Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T12:06:15.898Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fbb39c909c6d93c88af48"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713355576,\"exp\":1713441976}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T12:06:17.297Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T12:06:17.297Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fbb93c909c6d93c88af4c"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T12:07:47.868Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T12:07:47.868Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fbb98c909c6d93c88af4f"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T12:07:52.287Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T12:07:52.287Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ff90da7c7c2037a78b9cb"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:30:05.246Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:30:05.246Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffac0a7c7c2037a78b9ce"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:37:20.084Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:37:20.084Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffafda7c7c2037a78b9d1"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/register",
+  "createdAt": {
+    "$date": "2024-04-17T16:38:21.694Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:38:21.694Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffb0fa7c7c2037a78b9d9"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-17T16:38:39.345Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:38:39.345Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffb10a7c7c2037a78b9dc"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371919,\"exp\":1713458319}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T16:38:40.559Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:38:40.559Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffb35a7c7c2037a78b9e0"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-17T16:39:17.412Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:39:17.412Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffb36a7c7c2037a78b9e3"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T16:39:18.675Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:39:18.675Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffb45a7c7c2037a78b9e7"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:39:33.962Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:39:33.962Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffb59a7c7c2037a78b9ea"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:39:53.703Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:39:53.703Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffb71a7c7c2037a78b9ed"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:40:17.121Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:40:17.121Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffb71a7c7c2037a78b9f0"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T16:40:17.280Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:40:17.280Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffb82a7c7c2037a78b9f2"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T16:40:34.089Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:40:34.089Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffbaaa7c7c2037a78b9f9"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:41:14.014Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:41:14.014Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffbaaa7c7c2037a78b9fc"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T16:41:14.984Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:41:14.984Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffbcfa7c7c2037a78b9fe"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/registrar/search",
+  "createdAt": {
+    "$date": "2024-04-17T16:41:51.217Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:41:51.217Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffbe0a7c7c2037a78ba02"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-17T16:42:08.615Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:42:08.615Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffbefa7c7c2037a78ba09"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-17T16:42:23.360Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:42:23.360Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffc02a7c7c2037a78ba13"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/registrar/date-selected",
+  "createdAt": {
+    "$date": "2024-04-17T16:42:42.765Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:42:42.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffc0ea7c7c2037a78ba28"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-17T16:42:54.896Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:42:54.896Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffc39a7c7c2037a78ba30"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/registrar/add-summery",
+  "createdAt": {
+    "$date": "2024-04-17T16:43:37.532Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:43:37.532Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffc51a7c7c2037a78ba4a"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-17T16:44:01.792Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:44:01.792Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffc5ca7c7c2037a78ba54"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-17T16:44:12.595Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:44:12.595Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffc6fa7c7c2037a78ba5c"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/registrar/close-case",
+  "createdAt": {
+    "$date": "2024-04-17T16:44:31.736Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:44:31.736Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffc76a7c7c2037a78ba61"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:44:38.115Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:44:38.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffc79a7c7c2037a78ba64"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-17T16:44:41.493Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:44:41.493Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffc80a7c7c2037a78ba69"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:44:48.469Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:44:48.469Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffc86a7c7c2037a78ba6c"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-17T16:44:54.106Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:44:54.106Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffc8ea7c7c2037a78ba72"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-17T16:45:02.539Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:45:02.539Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffd45a7c7c2037a78ba79"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:48:05.378Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:48:05.378Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffd46a7c7c2037a78ba7c"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:48:06.141Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:48:06.141Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffd48a7c7c2037a78ba7f"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:48:08.929Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:48:08.929Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffd49a7c7c2037a78ba82"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713371957,\"exp\":1713458357}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T16:48:09.313Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:48:09.313Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffd67a7c7c2037a78ba84"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:48:39.444Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:48:39.444Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffd9fa7c7c2037a78ba87"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/register",
+  "createdAt": {
+    "$date": "2024-04-17T16:49:35.055Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:49:35.055Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffda3a7c7c2037a78ba8f"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-17T16:49:39.179Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:49:39.179Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdb0a7c7c2037a78ba92"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:49:52.536Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:49:52.536Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdb7a7c7c2037a78ba95"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-17T16:49:59.561Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:49:59.561Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdb8a7c7c2037a78ba98"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713372579,\"exp\":1713458979}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T16:50:00.642Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:50:00.642Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdb8a7c7c2037a78ba9a"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:50:00.695Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:50:00.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdb8a7c7c2037a78ba9f"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T16:50:00.794Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:50:00.794Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdbda7c7c2037a78baa3"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:50:05.435Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:50:05.435Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdbda7c7c2037a78baa6"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713372579,\"exp\":1713458979}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T16:50:05.765Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:50:05.765Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdc1a7c7c2037a78baa8"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713372579,\"exp\":1713458979}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T16:50:09.149Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:50:09.149Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdc1a7c7c2037a78baaa"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:50:09.151Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:50:09.151Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdc8a7c7c2037a78baad"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:50:16.787Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:50:16.787Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdcaa7c7c2037a78bab0"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:50:18.449Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:50:18.449Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdd9a7c7c2037a78bab3"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713372579,\"exp\":1713458979}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-17T16:50:33.681Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:50:33.681Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdeca7c7c2037a78bab7"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:50:52.096Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:50:52.096Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffdfea7c7c2037a78baba"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:51:10.064Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:51:10.064Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffe2fa7c7c2037a78babd"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:51:59.067Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:51:59.067Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffe31a7c7c2037a78bac0"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:52:01.456Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:52:01.456Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffe38a7c7c2037a78bac3"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:52:08.593Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:52:08.593Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffe47a7c7c2037a78bac6"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713372579,\"exp\":1713458979}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T16:52:23.490Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:52:23.490Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffe48a7c7c2037a78bac8"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:52:24.077Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:52:24.077Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffe49a7c7c2037a78bacb"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713372579,\"exp\":1713458979}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-17T16:52:25.620Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:52:25.620Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffe4da7c7c2037a78bacd"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:52:29.105Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:52:29.105Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffe50a7c7c2037a78bad0"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713372579,\"exp\":1713458979}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-17T16:52:32.292Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:52:32.292Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffe55a7c7c2037a78bad6"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:52:37.315Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:52:37.315Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661ffe5ba7c7c2037a78bad9"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:52:43.955Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:52:43.955Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fff63a7c7c2037a78badc"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/register-judge",
+  "createdAt": {
+    "$date": "2024-04-17T16:57:07.471Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:57:07.471Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fff67a7c7c2037a78bae7"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T16:57:11.814Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:57:11.814Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fffc5a7c7c2037a78baea"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-17T16:58:45.336Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:58:45.336Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "661fffc6a7c7c2037a78baed"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713373125,\"exp\":1713459525}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T16:58:46.920Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:58:46.920Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200006a7c7c2037a78baf7"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/register-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T16:59:50.999Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T16:59:50.999Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200045a7c7c2037a78bb02"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/register-court",
+  "createdAt": {
+    "$date": "2024-04-17T17:00:53.171Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:00:53.171Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200063a7c7c2037a78bb09"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/search",
+  "createdAt": {
+    "$date": "2024-04-17T17:01:23.228Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:01:23.228Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620007fa7c7c2037a78bb0d"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:01:51.944Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:01:51.944Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200080a7c7c2037a78bb10"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T17:01:52.296Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:01:52.296Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662000d8a7c7c2037a78bb12"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/update-court",
+  "createdAt": {
+    "$date": "2024-04-17T17:03:20.365Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:03:20.365Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662000dda7c7c2037a78bb18"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:03:25.950Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:03:25.950Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662000dea7c7c2037a78bb1b"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T17:03:26.356Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:03:26.356Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200126a7c7c2037a78bb1d"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:04:38.869Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:04:38.869Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620015da7c7c2037a78bb20"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T17:05:33.663Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:05:33.663Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662001aea7c7c2037a78bb27"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/register-case",
+  "createdAt": {
+    "$date": "2024-04-17T17:06:54.363Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:06:54.363Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662001b0a7c7c2037a78bb3c"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T17:06:56.553Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:06:56.553Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662001c8a7c7c2037a78bb3e"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-17T17:07:20.072Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:07:20.072Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662001d7a7c7c2037a78bb46"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/search",
+  "createdAt": {
+    "$date": "2024-04-17T17:07:35.200Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:07:35.200Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620021ba7c7c2037a78bb4a"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/add-summery",
+  "createdAt": {
+    "$date": "2024-04-17T17:08:43.267Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:08:43.267Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200223a7c7c2037a78bb4e"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-17T17:08:51.776Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:08:51.776Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620023aa7c7c2037a78bb55"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:09:14.062Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:09:14.062Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620024fa7c7c2037a78bb58"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/close-case",
+  "createdAt": {
+    "$date": "2024-04-17T17:09:35.277Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:09:35.277Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200253a7c7c2037a78bb5d"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:09:39.006Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:09:39.006Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200267a7c7c2037a78bb60"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-17T17:09:59.402Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:09:59.402Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620026da7c7c2037a78bb65"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-17T17:10:05.540Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:10:05.540Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200274a7c7c2037a78bb69"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-17T17:10:12.444Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:10:12.444Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200279a7c7c2037a78bb6d"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-17T17:10:17.024Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:10:17.024Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200286a7c7c2037a78bb72"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:10:30.100Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:10:30.100Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200295a7c7c2037a78bb75"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-17T17:10:45.002Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:10:45.002Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662002a0a7c7c2037a78bb7c"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-17T17:10:56.034Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:10:56.034Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662002a5a7c7c2037a78bb80"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-17T17:11:01.777Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:11:01.777Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662002aba7c7c2037a78bb86"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:11:07.408Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:11:07.408Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662002aca7c7c2037a78bb89"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:11:08.564Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:11:08.564Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662002b0a7c7c2037a78bb8c"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:11:12.720Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:11:12.720Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662002b1a7c7c2037a78bb8f"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T17:11:13.663Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:11:13.663Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662002c3a7c7c2037a78bb91"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:11:31.105Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:11:31.105Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620030ca7c7c2037a78bb94"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:12:44.260Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:12:44.260Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620030da7c7c2037a78bb97"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:12:45.568Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:12:45.568Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620030ea7c7c2037a78bb9a"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T17:12:46.632Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:12:46.632Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200374a7c7c2037a78bb9c"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T17:14:28.234Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:14:28.234Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620037da7c7c2037a78bba3"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/register-case",
+  "createdAt": {
+    "$date": "2024-04-17T17:14:37.709Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:14:37.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620037fa7c7c2037a78bbb2"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T17:14:39.917Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:14:39.917Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620038da7c7c2037a78bbb4"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:14:53.564Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:14:53.564Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620038da7c7c2037a78bbb7"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-17T17:14:53.832Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:14:53.832Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662003b9a7c7c2037a78bbb9"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-17T17:15:37.534Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:15:37.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662003d5a7c7c2037a78bbc1"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/date-selected",
+  "createdAt": {
+    "$date": "2024-04-17T17:16:05.593Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:16:05.593Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662003e4a7c7c2037a78bbd0"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-17T17:16:20.764Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:16:20.764Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662003e9a7c7c2037a78bbd8"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:16:25.720Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:16:25.720Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662003f7a7c7c2037a78bbdb"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-17T17:16:39.867Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:16:39.867Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200409a7c7c2037a78bbe0"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:16:57.039Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:16:57.039Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620040da7c7c2037a78bbe3"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-17T17:17:01.756Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:17:01.756Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200428a7c7c2037a78bbea"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/get-ranged-cases",
+  "createdAt": {
+    "$date": "2024-04-17T17:17:28.065Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:17:28.065Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200439a7c7c2037a78bbee"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713372599,\"exp\":1713458999}",
+  "method": "POST",
+  "url": "/registrar/get-ranged-cases",
+  "createdAt": {
+    "$date": "2024-04-17T17:17:45.640Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:17:45.640Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662004bfa7c7c2037a78bbf2"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:19:59.002Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:19:59.002Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662004cba7c7c2037a78bbf5"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:20:11.096Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:20:11.096Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662004e2a7c7c2037a78bbf8"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-17T17:20:34.773Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:20:34.773Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200525a7c7c2037a78bbfb"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-17T17:21:41.785Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:21:41.785Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200527a7c7c2037a78bbfe"
+  },
+  "id": "{\"id\":\"L6\",\"iat\":1713374502,\"exp\":1713460902}",
+  "method": "POST",
+  "url": "/lawyer/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T17:21:43.443Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:21:43.443Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200539a7c7c2037a78bc02"
+  },
+  "id": "{\"id\":\"L6\",\"iat\":1713374502,\"exp\":1713460902}",
+  "method": "POST",
+  "url": "/lawyer/case-view",
+  "createdAt": {
+    "$date": "2024-04-17T17:22:01.609Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:22:01.609Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200548a7c7c2037a78bc0c"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:22:16.175Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:22:16.175Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662007eea7c7c2037a78bc0f"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-17T17:33:34.163Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:33:34.163Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662007f0a7c7c2037a78bc12"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713375214,\"exp\":1713461614}",
+  "method": "POST",
+  "url": "/lawyer/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T17:33:36.013Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:33:36.013Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662008b8a7c7c2037a78bc1d"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:36:56.230Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:36:56.230Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620090ba7c7c2037a78bc20"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-17T17:38:19.955Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:38:19.955Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620090da7c7c2037a78bc23"
+  },
+  "id": "{\"id\":\"J5\",\"iat\":1713375500,\"exp\":1713461900}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T17:38:21.416Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:38:21.416Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200931a7c7c2037a78bc27"
+  },
+  "id": "{\"id\":\"J5\",\"iat\":1713375500,\"exp\":1713461900}",
+  "method": "POST",
+  "url": "/judge/case-view",
+  "createdAt": {
+    "$date": "2024-04-17T17:38:57.546Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:38:57.546Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620095ba7c7c2037a78bc31"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-17T17:39:39.876Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:39:39.876Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200964a7c7c2037a78bc34"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-17T17:39:48.804Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:39:48.804Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200966a7c7c2037a78bc37"
+  },
+  "id": "{\"id\":\"J1\",\"iat\":1713375589,\"exp\":1713461989}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T17:39:50.722Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:39:50.722Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662009ada7c7c2037a78bc3f"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-17T17:41:01.169Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:41:01.169Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662009b2a7c7c2037a78bc42"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-17T17:41:06.676Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:41:06.676Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662009b4a7c7c2037a78bc45"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713375667,\"exp\":1713462067}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T17:41:08.578Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:41:08.578Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662009c6a7c7c2037a78bc4f"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:41:26.674Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:41:26.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200aa4a7c7c2037a78bc52"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T17:45:08.013Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:45:08.013Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200c6fa7c7c2037a78bc55"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-17T17:52:47.277Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:52:47.277Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66200c70a7c7c2037a78bc58"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713376367,\"exp\":1713462767}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T17:52:48.519Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T17:52:48.519Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620117f1770792cb6d078f4"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-17T18:14:23.343Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:14:23.343Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620117f1770792cb6d078f7"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-17T18:14:23.938Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:14:23.938Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662011801770792cb6d078fa"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-17T18:14:24.125Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:14:24.125Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662011821770792cb6d078fd"
+  },
+  "id": "{\"id\":\"R4\",\"iat\":1713377664,\"exp\":1713464064}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T18:14:26.093Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:14:26.093Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662011851770792cb6d07901"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T18:14:29.415Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:14:29.415Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662013c11770792cb6d07904"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T18:24:01.438Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:24:01.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662013d61770792cb6d07907"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T18:24:22.965Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:24:22.965Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620144a1770792cb6d0790a"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-17T18:26:18.195Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:26:18.195Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662016311770792cb6d0790d"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-17T18:34:25.598Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:34:25.598Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620164c1770792cb6d07910"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-17T18:34:52.277Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:34:52.277Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662016531770792cb6d07913"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-17T18:34:59.336Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:34:59.336Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620165a1770792cb6d07916"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-17T18:35:06.244Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:35:06.244Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620165b1770792cb6d07919"
+  },
+  "id": "{\"id\":\"L6\",\"iat\":1713378906,\"exp\":1713465306}",
+  "method": "POST",
+  "url": "/lawyer/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T18:35:07.564Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:35:07.564Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662016801770792cb6d0791e"
+  },
+  "id": "{\"id\":\"L6\",\"iat\":1713378906,\"exp\":1713465306}",
+  "method": "POST",
+  "url": "/lawyer/case-view",
+  "createdAt": {
+    "$date": "2024-04-17T18:35:44.365Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:35:44.365Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662018101770792cb6d07928"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-17T18:42:24.632Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:42:24.632Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662018181770792cb6d0792b"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-17T18:42:32.691Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:42:32.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662018191770792cb6d0792e"
+  },
+  "id": "{\"id\":\"J5\",\"iat\":1713379353,\"exp\":1713465753}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T18:42:33.963Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T18:42:33.963Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620307bb668cd8d0893768f"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-17T20:26:35.367Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T20:26:35.367Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620307bb668cd8d08937691"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-17T20:26:35.386Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T20:26:35.386Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620307cb668cd8d08937695"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713385596,\"exp\":1713471996}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-17T20:26:36.993Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-17T20:26:36.993Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66208108fbdf4e928b8fe8b3"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-18T02:10:16.349Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T02:10:16.349Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66208114fbdf4e928b8fe8b6"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-18T02:10:28.408Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T02:10:28.408Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620812afbdf4e928b8fe8b9"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-18T02:10:50.006Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T02:10:50.006Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620812bfbdf4e928b8fe8bc"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713406250,\"exp\":1713492650}",
+  "method": "POST",
+  "url": "/lawyer/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-18T02:10:51.428Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T02:10:51.428Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66208170fbdf4e928b8fe8c7"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713406250,\"exp\":1713492650}",
+  "method": "POST",
+  "url": "/lawyer/case-view",
+  "createdAt": {
+    "$date": "2024-04-18T02:12:00.053Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T02:12:00.053Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66208224fbdf4e928b8fe8d0"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713406250,\"exp\":1713492650}",
+  "method": "POST",
+  "url": "/lawyer/search",
+  "createdAt": {
+    "$date": "2024-04-18T02:15:00.460Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T02:15:00.460Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66208232fbdf4e928b8fe8d4"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713406250,\"exp\":1713492650}",
+  "method": "POST",
+  "url": "/lawyer/search",
+  "createdAt": {
+    "$date": "2024-04-18T02:15:14.899Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T02:15:14.899Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620823ffbdf4e928b8fe8d8"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713406250,\"exp\":1713492650}",
+  "method": "POST",
+  "url": "/lawyer/search",
+  "createdAt": {
+    "$date": "2024-04-18T02:15:27.305Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T02:15:27.305Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620824cfbdf4e928b8fe8dc"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-18T02:15:40.914Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T02:15:40.914Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a1e852e56ecaa7866855"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-18T04:30:32.657Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:30:32.657Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a1e952e56ecaa7866861"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-18T04:30:33.560Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:30:33.560Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a1eb52e56ecaa7866864"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713414633,\"exp\":1713501033}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-18T04:30:35.598Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:30:35.598Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a21c52e56ecaa786686e"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713414633,\"exp\":1713501033}",
+  "method": "POST",
+  "url": "/judge/search",
+  "createdAt": {
+    "$date": "2024-04-18T04:31:24.618Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:31:24.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a23452e56ecaa7866872"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713414633,\"exp\":1713501033}",
+  "method": "POST",
+  "url": "/judge/case-view",
+  "createdAt": {
+    "$date": "2024-04-18T04:31:48.299Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:31:48.299Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a26852e56ecaa786687b"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-18T04:32:40.512Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:32:40.512Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a27752e56ecaa786687e"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-18T04:32:55.549Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:32:55.549Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a27852e56ecaa7866881"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713414775,\"exp\":1713501175}",
+  "method": "POST",
+  "url": "/lawyer/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-18T04:32:56.904Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:32:56.904Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a47652e56ecaa786688c"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-18T04:41:26.423Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:41:26.423Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a47752e56ecaa786688f"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713415286,\"exp\":1713501686}",
+  "method": "POST",
+  "url": "/lawyer/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-18T04:41:27.744Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:41:27.744Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a4ac52e56ecaa786689a"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713415286,\"exp\":1713501686}",
+  "method": "POST",
+  "url": "/lawyer/case-view",
+  "createdAt": {
+    "$date": "2024-04-18T04:42:20.513Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:42:20.513Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a4bd52e56ecaa78668a3"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713415286,\"exp\":1713501686}",
+  "method": "POST",
+  "url": "/lawyer/case-view",
+  "createdAt": {
+    "$date": "2024-04-18T04:42:37.299Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:42:37.299Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a4df52e56ecaa78668ab"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713415286,\"exp\":1713501686}",
+  "method": "POST",
+  "url": "/lawyer/case-view",
+  "createdAt": {
+    "$date": "2024-04-18T04:43:11.596Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:43:11.596Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a52052e56ecaa78668b4"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713415286,\"exp\":1713501686}",
+  "method": "POST",
+  "url": "/lawyer/case-view",
+  "createdAt": {
+    "$date": "2024-04-18T04:44:16.534Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:44:16.534Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a52752e56ecaa78668bc"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713415286,\"exp\":1713501686}",
+  "method": "POST",
+  "url": "/lawyer/case-view",
+  "createdAt": {
+    "$date": "2024-04-18T04:44:23.867Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:44:23.867Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a52b52e56ecaa78668c3"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713415286,\"exp\":1713501686}",
+  "method": "POST",
+  "url": "/lawyer/case-view",
+  "createdAt": {
+    "$date": "2024-04-18T04:44:27.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:44:27.848Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a53152e56ecaa78668cc"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-18T04:44:33.140Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:44:33.140Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a53a52e56ecaa78668cf"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713415286,\"exp\":1713501686}",
+  "method": "POST",
+  "url": "/lawyer/payment",
+  "createdAt": {
+    "$date": "2024-04-18T04:44:42.580Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:44:42.580Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a5a852e56ecaa78668d8"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713415286,\"exp\":1713501686}",
+  "method": "POST",
+  "url": "/lawyer/search",
+  "createdAt": {
+    "$date": "2024-04-18T04:46:32.846Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:46:32.846Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a5b952e56ecaa78668dc"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713415286,\"exp\":1713501686}",
+  "method": "POST",
+  "url": "/lawyer/search",
+  "createdAt": {
+    "$date": "2024-04-18T04:46:49.563Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:46:49.563Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a5d752e56ecaa78668e0"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-18T04:47:19.372Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:47:19.372Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a5e552e56ecaa78668e3"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713415286,\"exp\":1713501686}",
+  "method": "POST",
+  "url": "/lawyer/update",
+  "createdAt": {
+    "$date": "2024-04-18T04:47:33.339Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:47:33.339Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a7af52e56ecaa78668ea"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-18T04:55:11.642Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:55:11.642Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a7b552e56ecaa78668ed"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-18T04:55:17.909Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:55:17.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a7c152e56ecaa78668f0"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-18T04:55:29.250Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:55:29.250Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620a7c352e56ecaa78668f3"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713416129,\"exp\":1713502529}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-18T04:55:31.315Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T04:55:31.315Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aa5352e56ecaa78668f7"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-18T05:06:27.464Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:06:27.464Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aa5452e56ecaa78668fa"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713416787,\"exp\":1713503187}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-18T05:06:28.621Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:06:28.621Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aa6052e56ecaa78668fe"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-18T05:06:40.188Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:06:40.188Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aa6152e56ecaa7866901"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713416787,\"exp\":1713503187}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-18T05:06:41.260Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:06:41.260Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aa6252e56ecaa7866903"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713416787,\"exp\":1713503187}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-18T05:06:42.842Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:06:42.842Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aa6852e56ecaa7866908"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713416787,\"exp\":1713503187}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-18T05:06:48.695Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:06:48.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aa6c52e56ecaa786690c"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713416787,\"exp\":1713503187}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-18T05:06:52.463Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:06:52.463Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aa6f52e56ecaa7866910"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713416787,\"exp\":1713503187}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-18T05:06:55.376Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:06:55.376Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aab052e56ecaa7866915"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-18T05:08:00.102Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:08:00.102Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aab152e56ecaa7866918"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713416787,\"exp\":1713503187}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-18T05:08:01.541Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:08:01.541Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aab452e56ecaa786691e"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713416787,\"exp\":1713503187}",
+  "method": "POST",
+  "url": "/registrar/get-ranged-cases",
+  "createdAt": {
+    "$date": "2024-04-18T05:08:04.672Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:08:04.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aac952e56ecaa7866922"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-18T05:08:25.092Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:08:25.092Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aaca52e56ecaa7866925"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-18T05:08:26.616Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:08:26.616Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620aad052e56ecaa7866928"
+  },
+  "id": "{\"id\":\"R5\",\"iat\":1713416787,\"exp\":1713503187}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-18T05:08:32.504Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:08:32.504Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620ab1552e56ecaa786692e"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-18T05:09:41.872Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:09:41.872Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620b3e6cb972785c6d8323b"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-18T05:47:18.526Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:47:18.526Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620b3e6cb972785c6d8323d"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-18T05:47:18.591Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:47:18.591Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6620b3e7cb972785c6d83241"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-18T05:47:19.029Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-18T05:47:19.029Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223286c104c7cb9b629e7b"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713416129,\"exp\":1713502529}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T08:59:50.674Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T08:59:50.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223287c104c7cb9b629e80"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-19T08:59:51.004Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T08:59:51.004Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223288c104c7cb9b629e83"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517191,\"exp\":1713603591}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T08:59:52.382Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T08:59:52.382Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233bd048267669caa0840"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:01.591Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:01.591Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233be048267669caa0844"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:02.485Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:02.485Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233be048267669caa0846"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:02.489Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:02.489Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233c4048267669caa084f"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:08.988Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:08.988Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233c6048267669caa0852"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:10.292Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:10.292Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233c7048267669caa0855"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:11.597Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:11.597Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233c8048267669caa0858"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:12.189Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:12.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233ca048267669caa085b"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:14.015Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:14.015Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233ca048267669caa085d"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:14.024Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:14.024Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233ca048267669caa085f"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:14.034Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:14.034Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233ca048267669caa0862"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:14.586Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:14.586Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233df048267669caa0865"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:35.129Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:35.129Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233df048267669caa0868"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:35.745Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:35.745Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233e0048267669caa086b"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:36.842Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:36.842Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662233e4048267669caa086d"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:05:40.363Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:05:40.363Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223425048267669caa0872"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:06:45.575Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:06:45.575Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622345b048267669caa0875"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:07:39.612Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:07:39.612Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622345c048267669caa0878"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:07:40.517Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:07:40.517Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622345e048267669caa087b"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:07:42.566Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:07:42.566Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223460048267669caa087e"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:07:44.892Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:07:44.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223464048267669caa0880"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:07:48.478Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:07:48.478Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223479048267669caa0885"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:08:09.218Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:08:09.218Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662234b3048267669caa0888"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:09:07.567Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:09:07.567Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662234d0048267669caa088b"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:09:36.542Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:09:36.542Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662234d1048267669caa088e"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:09:37.188Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:09:37.188Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662234d3048267669caa0891"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:09:39.271Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:09:39.271Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223508048267669caa0896"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:10:32.035Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:10:32.035Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223508048267669caa0899"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:10:32.966Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:10:32.966Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622350c048267669caa089c"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:10:36.061Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:10:36.061Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662235b8048267669caa08a1"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:13:28.434Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:13:28.434Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662235b9048267669caa08a4"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:13:29.469Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:13:29.469Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662235bb048267669caa08a7"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:13:31.746Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:13:31.746Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662236b8048267669caa08ac"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:17:44.990Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:17:44.990Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662236b9048267669caa08af"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:17:45.673Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:17:45.673Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662236bc048267669caa08b2"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:17:48.067Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:17:48.067Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662236bf048267669caa08b7"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:17:51.868Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:17:51.868Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662236c5048267669caa08b9"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:17:57.770Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:17:57.770Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662236ee048267669caa08c1"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:18:38.029Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:18:38.029Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662236ee048267669caa08c4"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:18:38.664Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:18:38.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662236ef048267669caa08c7"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:18:39.483Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:18:39.483Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662236f0048267669caa08ca"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:18:40.145Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:18:40.145Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662236f3048267669caa08cd"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:18:43.353Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:18:43.353Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662236f5048267669caa08d2"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:18:45.984Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:18:45.984Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622379e048267669caa08d4"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:21:34.092Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:21:34.092Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622379e048267669caa08d7"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:21:34.707Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:21:34.707Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662237a0048267669caa08da"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:21:36.866Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:21:36.866Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662237a3048267669caa08df"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:21:39.882Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:21:39.882Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662237eb048267669caa08e1"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:22:51.054Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:22:51.054Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662237eb048267669caa08e4"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:22:51.902Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:22:51.902Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662237ec048267669caa08e7"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:22:52.529Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:22:52.529Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662237ed048267669caa08ea"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:22:53.191Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:22:53.191Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662237ef048267669caa08ed"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:22:55.230Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:22:55.230Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662237f3048267669caa08f2"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:22:59.064Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:22:59.064Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223836048267669caa08f4"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:24:06.002Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:24:06.002Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223838048267669caa08f7"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:24:08.664Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:24:08.664Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622383a048267669caa08fa"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:24:10.566Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:24:10.566Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622383e048267669caa08ff"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:24:14.881Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:24:14.881Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622385d048267669caa0901"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:24:45.066Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:24:45.066Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622385d048267669caa0904"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:24:45.851Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:24:45.851Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223860048267669caa0907"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:24:48.538Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:24:48.538Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223864048267669caa090c"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:24:52.412Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:24:52.412Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662238d9048267669caa090e"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:26:49.327Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:26:49.327Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662238d9048267669caa0911"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:26:49.967Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:26:49.967Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662238dc048267669caa0914"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:26:52.178Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:26:52.178Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662238de048267669caa0919"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:26:54.972Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:26:54.972Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662238f4048267669caa0921"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:27:16.702Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:27:16.702Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223911048267669caa092a"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-ranged-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:27:45.127Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:27:45.127Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622395b048267669caa092e"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:28:59.193Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:28:59.193Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622397b048267669caa0935"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-ranged-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:29:31.019Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:29:31.019Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622397e048267669caa0939"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:29:34.872Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:29:34.872Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223995048267669caa0940"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/search",
+  "createdAt": {
+    "$date": "2024-04-19T09:29:57.811Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:29:57.811Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662239bc048267669caa0944"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:30:36.232Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:30:36.232Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662239bc048267669caa0947"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:30:36.855Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:30:36.855Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662239bd048267669caa094a"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:30:37.843Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:30:37.843Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662239e8048267669caa0950"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:31:20.516Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:31:20.516Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223a0d048267669caa0953"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:31:57.289Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:31:57.289Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223a0d048267669caa0956"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:31:57.905Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:31:57.905Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223c1eb9ac41da8d6a78d5"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-19T09:40:47.007Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:40:47.007Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223c39b9ac41da8d6a78df"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-19T09:41:13.254Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:41:13.254Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223c45b9ac41da8d6a78e9"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/date-selected",
+  "createdAt": {
+    "$date": "2024-04-19T09:41:25.522Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:41:25.522Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223c52b9ac41da8d6a78ed"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-19T09:41:38.637Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:41:38.637Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223c58b9ac41da8d6a78f1"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/date-selected",
+  "createdAt": {
+    "$date": "2024-04-19T09:41:44.804Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:41:44.804Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223c66b9ac41da8d6a78f5"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-19T09:41:58.026Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:41:58.026Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223c6cb9ac41da8d6a78ff"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/date-selected",
+  "createdAt": {
+    "$date": "2024-04-19T09:42:04.512Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:42:04.512Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223c87b9ac41da8d6a7909"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-19T09:42:31.628Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:42:31.628Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223c99b9ac41da8d6a7911"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-19T09:42:49.878Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:42:49.878Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223ca4b9ac41da8d6a7919"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/date-selected",
+  "createdAt": {
+    "$date": "2024-04-19T09:43:00.352Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:43:00.352Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223d36b9ac41da8d6a791d"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-19T09:45:26.074Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:45:26.074Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223d41b9ac41da8d6a7927"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/date-selected",
+  "createdAt": {
+    "$date": "2024-04-19T09:45:37.273Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:45:37.273Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223d94b9ac41da8d6a7931"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-19T09:47:00.320Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:47:00.320Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223d9bb9ac41da8d6a793b"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/date-selected",
+  "createdAt": {
+    "$date": "2024-04-19T09:47:07.618Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:47:07.618Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223db6b9ac41da8d6a7950"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/add-summery",
+  "createdAt": {
+    "$date": "2024-04-19T09:47:34.204Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:47:34.204Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223dcbb9ac41da8d6a796a"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:47:55.666Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:47:55.666Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223dccb9ac41da8d6a796d"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:47:56.282Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:47:56.282Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223df7faded8a977f1f2e0"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-19T09:48:39.733Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:48:39.733Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223e08faded8a977f1f2ea"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/date-selected",
+  "createdAt": {
+    "$date": "2024-04-19T09:48:56.974Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:48:56.974Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223e21faded8a977f1f2ff"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/add-summery",
+  "createdAt": {
+    "$date": "2024-04-19T09:49:21.263Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:49:21.263Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223e3dfaded8a977f1f319"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-19T09:49:49.645Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:49:49.645Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223e45faded8a977f1f323"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/date-selected",
+  "createdAt": {
+    "$date": "2024-04-19T09:49:57.820Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:49:57.820Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223f51faded8a977f1f32d"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-19T09:54:25.308Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:54:25.308Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223f58faded8a977f1f337"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/date-selected",
+  "createdAt": {
+    "$date": "2024-04-19T09:54:32.502Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:54:32.502Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223f82faded8a977f1f34c"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/close-case",
+  "createdAt": {
+    "$date": "2024-04-19T09:55:14.293Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:55:14.293Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223f85faded8a977f1f350"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:55:17.676Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:55:17.676Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223f86faded8a977f1f353"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:55:18.291Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:55:18.291Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223f8afaded8a977f1f356"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:55:22.791Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:55:22.791Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223f8efaded8a977f1f35b"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:55:26.641Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:55:26.641Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223f8ffaded8a977f1f35e"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T09:55:27.216Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:55:27.216Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223f92faded8a977f1f361"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:55:30.219Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:55:30.219Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223f99faded8a977f1f367"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:55:37.659Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:55:37.659Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223f9ffaded8a977f1f36d"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:55:43.971Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:55:43.971Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223fb6faded8a977f1f376"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/get-ranged-cases",
+  "createdAt": {
+    "$date": "2024-04-19T09:56:06.028Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:56:06.028Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223fb9faded8a977f1f37a"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:56:09.234Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:56:09.234Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66223fc3faded8a977f1f381"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/search",
+  "createdAt": {
+    "$date": "2024-04-19T09:56:19.804Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:56:19.804Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224030faded8a977f1f385"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:58:08.080Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:58:08.080Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224044faded8a977f1f38d"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/search",
+  "createdAt": {
+    "$date": "2024-04-19T09:58:28.413Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:58:28.413Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224049faded8a977f1f391"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713517502,\"exp\":1713603902}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T09:58:33.280Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:58:33.280Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224086faded8a977f1f399"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-19T09:59:34.617Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:59:34.617Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224087faded8a977f1f39c"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713520775,\"exp\":1713607175}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T09:59:35.431Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:59:35.431Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224087faded8a977f1f39e"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713520775,\"exp\":1713607175}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T09:59:35.436Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T09:59:35.436Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224144faded8a977f1f3b0"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713520775,\"exp\":1713607175}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T10:02:44.453Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:02:44.453Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224166faded8a977f1f3b3"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-19T10:03:18.128Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:03:18.128Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224166faded8a977f1f3b6"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713520998,\"exp\":1713607398}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T10:03:18.924Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:03:18.924Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224166faded8a977f1f3b8"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713520998,\"exp\":1713607398}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T10:03:18.929Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:03:18.929Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622419bfaded8a977f1f3ca"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713520998,\"exp\":1713607398}",
+  "method": "POST",
+  "url": "/judge/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T10:04:11.909Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:04:11.909Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662241b8faded8a977f1f3d2"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713520998,\"exp\":1713607398}",
+  "method": "POST",
+  "url": "/judge/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T10:04:40.802Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:04:40.802Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662241c2faded8a977f1f3dc"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713520998,\"exp\":1713607398}",
+  "method": "POST",
+  "url": "/judge/search",
+  "createdAt": {
+    "$date": "2024-04-19T10:04:50.230Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:04:50.230Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662241c5faded8a977f1f3e0"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713520998,\"exp\":1713607398}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T10:04:53.208Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:04:53.208Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662241dbfaded8a977f1f3e3"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-19T10:05:15.361Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:05:15.361Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662241dcfaded8a977f1f3e6"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713521116,\"exp\":1713607516}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T10:05:16.438Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:05:16.438Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662241dcfaded8a977f1f3e8"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713521116,\"exp\":1713607516}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T10:05:16.440Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:05:16.440Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622420ffaded8a977f1f3fa"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713521116,\"exp\":1713607516}",
+  "method": "POST",
+  "url": "/judge/search",
+  "createdAt": {
+    "$date": "2024-04-19T10:06:07.971Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:06:07.971Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224212faded8a977f1f3fe"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713521116,\"exp\":1713607516}",
+  "method": "POST",
+  "url": "/judge/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T10:06:10.499Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:06:10.499Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224238faded8a977f1f407"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-19T10:06:48.852Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:06:48.852Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224239faded8a977f1f40a"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713521209,\"exp\":1713607609}",
+  "method": "POST",
+  "url": "/lawyer/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T10:06:49.631Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:06:49.631Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224239faded8a977f1f40c"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713521209,\"exp\":1713607609}",
+  "method": "POST",
+  "url": "/lawyer/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T10:06:49.638Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:06:49.638Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6622426efaded8a977f1f420"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713521209,\"exp\":1713607609}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T10:07:42.869Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:07:42.869Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224286faded8a977f1f423"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-19T10:08:06.997Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:08:06.997Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224287faded8a977f1f426"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713521287,\"exp\":1713607687}",
+  "method": "POST",
+  "url": "/lawyer/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T10:08:07.751Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:08:07.751Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224287faded8a977f1f428"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713521287,\"exp\":1713607687}",
+  "method": "POST",
+  "url": "/lawyer/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T10:08:07.752Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:08:07.752Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662242bffaded8a977f1f43c"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713521287,\"exp\":1713607687}",
+  "method": "POST",
+  "url": "/lawyer/search",
+  "createdAt": {
+    "$date": "2024-04-19T10:09:03.674Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:09:03.674Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662242dcfaded8a977f1f440"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713521287,\"exp\":1713607687}",
+  "method": "POST",
+  "url": "/lawyer/search",
+  "createdAt": {
+    "$date": "2024-04-19T10:09:32.557Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:09:32.557Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662242e0faded8a977f1f444"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713521287,\"exp\":1713607687}",
+  "method": "POST",
+  "url": "/lawyer/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T10:09:36.140Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:09:36.140Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662242fefaded8a977f1f44d"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713521287,\"exp\":1713607687}",
+  "method": "POST",
+  "url": "/lawyer/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T10:10:06.879Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:10:06.879Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224340faded8a977f1f458"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T10:11:12.322Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:11:12.322Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224340faded8a977f1f45b"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T10:11:12.949Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:11:12.949Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662249f1a7ec10ccf1a0dbf8"
+  },
+  "id": "\"\"",
+  "method": "HEAD",
+  "url": "/",
+  "createdAt": {
+    "$date": "2024-04-19T10:39:45.298Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:39:45.298Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662249f2a7ec10ccf1a0dbfb"
+  },
+  "id": "\"\"",
+  "method": "HEAD",
+  "url": "/",
+  "createdAt": {
+    "$date": "2024-04-19T10:39:46.014Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:39:46.014Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662249faa7ec10ccf1a0dc08"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/",
+  "createdAt": {
+    "$date": "2024-04-19T10:39:54.373Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:39:54.373Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224a44a7ec10ccf1a0dc0a"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-19T10:41:08.791Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:41:08.791Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224a46a7ec10ccf1a0dc0d"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713523269,\"exp\":1713609669}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T10:41:10.180Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:41:10.180Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224a4ea7ec10ccf1a0dc11"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T10:41:18.109Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:41:18.109Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224a51a7ec10ccf1a0dc14"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713523269,\"exp\":1713609669}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-19T10:41:21.361Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:41:21.361Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224a57a7ec10ccf1a0dc1a"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713523269,\"exp\":1713609669}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-19T10:41:27.691Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:41:27.691Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224a5ba7ec10ccf1a0dc20"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713523269,\"exp\":1713609669}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T10:41:31.885Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:41:31.885Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224a69a7ec10ccf1a0dc29"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713523269,\"exp\":1713609669}",
+  "method": "POST",
+  "url": "/registrar/search",
+  "createdAt": {
+    "$date": "2024-04-19T10:41:45.956Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:41:45.956Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224a6da7ec10ccf1a0dc2d"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713523269,\"exp\":1713609669}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T10:41:49.581Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:41:49.581Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224ab8a7ec10ccf1a0dc35"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T10:43:04.187Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:43:04.187Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224ab8a7ec10ccf1a0dc38"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713523269,\"exp\":1713609669}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-19T10:43:04.610Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:43:04.610Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224ae9a7ec10ccf1a0dc3a"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T10:43:53.068Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:43:53.068Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224aeda7ec10ccf1a0dc3d"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713523269,\"exp\":1713609669}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T10:43:57.712Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:43:57.712Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224af8a7ec10ccf1a0dc41"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713523269,\"exp\":1713609669}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-19T10:44:08.672Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:44:08.672Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224affa7ec10ccf1a0dc46"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713523269,\"exp\":1713609669}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-19T10:44:15.615Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:44:15.615Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224b34a7ec10ccf1a0dc4d"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T10:45:08.220Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:45:08.220Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224b35a7ec10ccf1a0dc50"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713523269,\"exp\":1713609669}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-19T10:45:09.197Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:45:09.197Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224b5ea7ec10ccf1a0dc52"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-19T10:45:50.373Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:45:50.373Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224b5fa7ec10ccf1a0dc55"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713523550,\"exp\":1713609950}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-19T10:45:51.751Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:45:51.751Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66224b87a7ec10ccf1a0dc5f"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-19T10:46:31.269Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-19T10:46:31.269Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623984f7b7683ff0038a004"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-20T10:26:23.764Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:26:23.764Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398507b7683ff0038a007"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713608784,\"exp\":1713695184}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-20T10:26:24.596Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:26:24.596Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398507b7683ff0038a009"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713608784,\"exp\":1713695184}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-20T10:26:24.599Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:26:24.599Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623985a7b7683ff0038a00f"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:26:34.632Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:26:34.632Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623985b7b7683ff0038a012"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:26:35.257Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:26:35.257Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398637b7683ff0038a015"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:26:43.892Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:26:43.892Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398647b7683ff0038a018"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:26:44.833Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:26:44.833Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398787b7683ff0038a01b"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:27:04.115Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:27:04.115Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398787b7683ff0038a01d"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713608784,\"exp\":1713695184}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-20T10:27:04.119Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:27:04.119Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398787b7683ff0038a01f"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713608784,\"exp\":1713695184}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-20T10:27:04.128Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:27:04.128Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398787b7683ff0038a022"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:27:04.719Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:27:04.719Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398817b7683ff0038a025"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713608784,\"exp\":1713695184}",
+  "method": "POST",
+  "url": "/util/judge-lawyer",
+  "createdAt": {
+    "$date": "2024-04-20T10:27:13.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:27:13.853Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398a07b7683ff0038a02c"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713608784,\"exp\":1713695184}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-20T10:27:44.779Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:27:44.779Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398a07b7683ff0038a02e"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713608784,\"exp\":1713695184}",
+  "method": "POST",
+  "url": "/registrar/get-schedule",
+  "createdAt": {
+    "$date": "2024-04-20T10:27:44.988Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:27:44.988Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398bd7b7683ff0038a044"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713608784,\"exp\":1713695184}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:28:13.050Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:28:13.050Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398e97b7683ff0038a04d"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:28:57.541Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:28:57.541Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398ea7b7683ff0038a050"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:28:58.347Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:28:58.347Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398ee7b7683ff0038a053"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713608784,\"exp\":1713695184}",
+  "method": "POST",
+  "url": "/registrar/get-pending-cases",
+  "createdAt": {
+    "$date": "2024-04-20T10:29:02.732Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:29:02.732Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662398f47b7683ff0038a058"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713608784,\"exp\":1713695184}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:29:08.792Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:29:08.792Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662399067b7683ff0038a060"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:29:26.764Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:29:26.764Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662399077b7683ff0038a063"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:29:27.648Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:29:27.648Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623990a7b7683ff0038a066"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713608784,\"exp\":1713695184}",
+  "method": "POST",
+  "url": "/registrar/get-today-cases",
+  "createdAt": {
+    "$date": "2024-04-20T10:29:30.677Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:29:30.677Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662399177b7683ff0038a06c"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713608784,\"exp\":1713695184}",
+  "method": "POST",
+  "url": "/registrar/get-ranged-cases",
+  "createdAt": {
+    "$date": "2024-04-20T10:29:43.412Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:29:43.412Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662399247b7683ff0038a070"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713608784,\"exp\":1713695184}",
+  "method": "POST",
+  "url": "/registrar/search",
+  "createdAt": {
+    "$date": "2024-04-20T10:29:56.268Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:29:56.268Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623992a7b7683ff0038a074"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:30:02.110Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:30:02.110Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6623992a7b7683ff0038a077"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:30:02.853Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:30:02.853Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662399957b7683ff0038a07a"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/judge/login",
+  "createdAt": {
+    "$date": "2024-04-20T10:31:49.189Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:31:49.189Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662399967b7683ff0038a07f"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713609110,\"exp\":1713695510}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-20T10:31:50.143Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:31:50.143Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662399967b7683ff0038a07d"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713609110,\"exp\":1713695510}",
+  "method": "POST",
+  "url": "/judge/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-20T10:31:50.141Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:31:50.141Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662399b47b7683ff0038a091"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713609110,\"exp\":1713695510}",
+  "method": "POST",
+  "url": "/judge/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:32:20.342Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:32:20.342Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662399c07b7683ff0038a099"
+  },
+  "id": "{\"id\":\"J2\",\"iat\":1713609110,\"exp\":1713695510}",
+  "method": "POST",
+  "url": "/judge/search",
+  "createdAt": {
+    "$date": "2024-04-20T10:32:32.934Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:32:32.934Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662399c87b7683ff0038a09d"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:32:40.052Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:32:40.052Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "662399c87b7683ff0038a0a0"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:32:40.736Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:32:40.736Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239a0d7b7683ff0038a0a3"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/lawyer/login",
+  "createdAt": {
+    "$date": "2024-04-20T10:33:49.941Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:33:49.941Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239a0f7b7683ff0038a0a6"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713609231,\"exp\":1713695631}",
+  "method": "POST",
+  "url": "/lawyer/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-20T10:33:51.291Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:33:51.291Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239a0f7b7683ff0038a0a8"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713609231,\"exp\":1713695631}",
+  "method": "POST",
+  "url": "/lawyer/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-20T10:33:51.298Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:33:51.298Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239a4b7b7683ff0038a0bc"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713609231,\"exp\":1713695631}",
+  "method": "POST",
+  "url": "/lawyer/payment",
+  "createdAt": {
+    "$date": "2024-04-20T10:34:51.935Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:34:51.935Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239a5c7b7683ff0038a0c5"
+  },
+  "id": "{\"id\":\"L1\",\"iat\":1713609231,\"exp\":1713695631}",
+  "method": "POST",
+  "url": "/lawyer/payment",
+  "createdAt": {
+    "$date": "2024-04-20T10:35:08.709Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:35:08.709Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239a6b7b7683ff0038a0cc"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:35:23.713Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:35:23.713Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239a6c7b7683ff0038a0cf"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:35:24.345Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:35:24.345Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239ae27b7683ff0038a0d2"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:37:22.088Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:37:22.088Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239ae27b7683ff0038a0d5"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:37:22.695Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:37:22.695Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239af57b7683ff0038a0d8"
+  },
+  "id": "\"\"",
+  "method": "POST",
+  "url": "/registrar/login",
+  "createdAt": {
+    "$date": "2024-04-20T10:37:41.023Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:37:41.023Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239af57b7683ff0038a0dd"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-20T10:37:41.793Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:37:41.793Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239af57b7683ff0038a0db"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/get-complete-details",
+  "createdAt": {
+    "$date": "2024-04-20T10:37:41.789Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:37:41.789Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239afb7b7683ff0038a0e3"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:37:47.745Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:37:47.745Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239afd7b7683ff0038a0e6"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:37:49.034Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:37:49.034Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239b077b7683ff0038a0e9"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:37:59.636Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:37:59.636Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239b087b7683ff0038a0ec"
+  },
+  "id": "\"\"",
+  "method": "GET",
+  "url": "/util/court",
+  "createdAt": {
+    "$date": "2024-04-20T10:38:00.747Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:38:00.747Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239b1a7b7683ff0038a0ef"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:38:18.833Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:38:18.833Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239b417b7683ff0038a0f8"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/add-summery",
+  "createdAt": {
+    "$date": "2024-04-20T10:38:57.507Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:38:57.507Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239b547b7683ff0038a10e"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:39:16.489Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:39:16.489Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239b5f7b7683ff0038a116"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:39:27.296Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:39:27.296Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239b967b7683ff0038a11e"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/add-summery",
+  "createdAt": {
+    "$date": "2024-04-20T10:40:22.425Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:40:22.425Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239bac7b7683ff0038a134"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:40:44.143Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:40:44.143Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239bc07b7683ff0038a13c"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/add-summery",
+  "createdAt": {
+    "$date": "2024-04-20T10:41:04.762Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:41:04.762Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239bcf7b7683ff0038a140"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:41:19.606Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:41:19.606Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239be67b7683ff0038a148"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:41:42.966Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:41:42.966Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239bf67b7683ff0038a14f"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:41:58.698Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:41:58.698Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239c0d7b7683ff0038a156"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:42:21.247Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:42:21.247Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239c1a7b7683ff0038a15e"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:42:34.239Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:42:34.239Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239c5b7b7683ff0038a165"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:43:39.848Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:43:39.848Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239c6e7b7683ff0038a16e"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:43:58.392Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:43:58.392Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239ca07b7683ff0038a176"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/add-summery",
+  "createdAt": {
+    "$date": "2024-04-20T10:44:48.044Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:44:48.044Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "66239cae7b7683ff0038a188"
+  },
+  "id": "{\"id\":\"R1\",\"iat\":1713609461,\"exp\":1713695861}",
+  "method": "POST",
+  "url": "/registrar/case-view",
+  "createdAt": {
+    "$date": "2024-04-20T10:45:02.313Z"
+  },
+  "updatedAt": {
+    "$date": "2024-04-20T10:45:02.313Z"
+  },
+  "__v": 0
+}]
